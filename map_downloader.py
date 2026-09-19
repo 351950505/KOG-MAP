@@ -14,21 +14,20 @@ from collections import defaultdict
 # 强制 UTF-8 编码
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# ================= 生产环境绝对路径 =================
+# 生产环境路径
 BASE_DIR = "/opt/ddnet" if os.path.exists("/opt/ddnet") else os.path.dirname(os.path.abspath(__file__))
 OUTPUT_MAPS_DIR = os.path.join(BASE_DIR, "maps")
 VOTES_DIR = os.path.join(BASE_DIR, "votes")
 ROOT_VOTES_CFG = os.path.join(BASE_DIR, "votes.cfg")
+FIFO_PATH = os.path.join(BASE_DIR, "server.fifo")
 MASTER_URL = "https://master1.ddnet.org/ddnet/15/servers.json"
 
-# 备选扫描路径 (包含当前目录与本地 Git 仓库)
 SCAN_DIRS = [
     OUTPUT_MAPS_DIR,
     "/opt/KOG-MAP/maps",
     os.path.expanduser("~/.local/share/ddnet/downloadedmaps")
 ]
 
-# 官方真实 CDN 与备用镜像
 CDN_TEMPLATES = [
     "https://maps.kog.tw/teeworlds/maps/{name}_{sha}.map",
     "https://maps.ddnet.org/compilations/maps/{name}_{sha}.map",
@@ -50,6 +49,9 @@ CATEGORY_DISPLAY_NAMES = {
 ssl_ctx = ssl.create_default_context()
 ssl_ctx.check_hostname = False
 ssl_ctx.verify_mode = ssl.CERT_NONE
+
+# 记录当前通知绑定的日期
+last_checked_date = ""
 
 def is_valid_teeworlds_binary(data_bytes):
     """严格校验 Teeworlds/DDNet 原生二进制魔数 (DATA 或 ATAD)"""
@@ -92,7 +94,7 @@ def clean_existing_corrupted_maps():
         print(" 所有假文件已清理完毕！\n" + "=" * 70)
 
 def is_official_formal_kog_server(server_name):
-    """【白名单过滤】屏蔽所有 TEST / BETA 沙盒房间，只收割正式房间"""
+    """【白名单过滤】屏蔽一切 TEST / BETA 沙盒房间"""
     s_upper = server_name.upper()
     for blackword in ["TEST", "BETA", "DEV", "EVALUATE", "SUBMISSION"]:
         if blackword in s_upper:
@@ -105,7 +107,6 @@ def is_official_formal_kog_server(server_name):
     return any(cat in s_upper for cat in formal_categories)
 
 def extract_category_from_server(server_name):
-    """从正式服房间名解析分类"""
     m = re.search(r'-\s*(Easy|Main|Hard|Solo|Insane|Extreme|Mods)\b', server_name, re.IGNORECASE)
     if m:
         return m.group(1).capitalize()
@@ -280,6 +281,65 @@ def refresh_all_votes_system():
     except Exception:
         pass
 
+def send_to_server_fifo(cmd_text):
+    """向服务端 FIFO 管道写入指令"""
+    if os.path.exists(FIFO_PATH):
+        try:
+            with open(FIFO_PATH, "w", encoding="utf-8") as f:
+                f.write(cmd_text + "\n")
+        except Exception:
+            pass
+
+def sync_today_new_maps_motd():
+    """【进服弹窗核心】只在当天有新图时设置进服提示，隔天自动清空静音"""
+    global last_checked_date
+    today_str = time.strftime("%Y-%m-%d")
+    today_maps = []
+
+    # 扫描 votes/ 目录下所有记录今天日期的地图
+    if os.path.exists(VOTES_DIR):
+        for fname in os.listdir(VOTES_DIR):
+            if fname.endswith(".cfg") and fname != "all.cfg":
+                cat = fname.replace(".cfg", "").capitalize()
+                fp = os.path.join(VOTES_DIR, fname)
+                try:
+                    with open(fp, "r", encoding="utf-8", errors="ignore") as f:
+                        for line in f:
+                            if today_str in line and "change_map " in line:
+                                mname = line.split("change_map ")[-1].replace('"', '').strip()
+                                today_maps.append((mname, cat))
+                except Exception:
+                    pass
+
+    # 如果今天有新入库的地图，配置进服弹窗
+    if today_maps:
+        # 去重
+        seen = set()
+        unique_today = []
+        for m, c in today_maps:
+            if m not in seen:
+                seen.add(m)
+                unique_today.append((m, c))
+
+        map_lines = "\\n".join([f"• {m} ({c})" for m, c in unique_today[:6]])
+        if len(unique_today) > 6:
+            map_lines += f"\\n... 等共 {len(unique_today)} 张"
+
+        motd_text = (
+            f"==============================\\n"
+            f"📢【今日正版新图速递 ({today_str})】\\n"
+            f"{map_lines}\\n"
+            f"按 ESC -> 选项投票 即可发起体验！\\n"
+            f"=============================="
+        )
+        send_to_server_fifo(f'sv_motd "{motd_text}"')
+        print(f"[{today_str}] 已同步进服弹窗 (今日新增 {len(unique_today)} 张新图)")
+    else:
+        # 今天没有新图（或日期已切换到新的一天），自动清空弹窗不打扰
+        send_to_server_fifo('sv_motd ""')
+
+    last_checked_date = today_str
+
 def append_map_and_refresh_votes(cat, mname):
     os.makedirs(VOTES_DIR, exist_ok=True)
     target_cfg = os.path.join(VOTES_DIR, f"{cat.lower()}.cfg")
@@ -293,11 +353,19 @@ def append_map_and_refresh_votes(cat, mname):
     except Exception as e:
         print(f"写入 {target_cfg} 失败: {e}")
 
+    # 1. 刷新投票菜单数量
     refresh_all_votes_system()
+
+    # 2. 实时广播（通知正在玩的玩家）
+    send_to_server_fifo(f'say 📢 [KoG 新图] 已自动入库: {mname} ({cat})')
+    send_to_server_fifo(f'broadcast 🎯 新地图 [{mname}] 已上线，快去投票体验！')
+
+    # 3. 更新进服弹窗（通知稍后/今天进服的玩家）
+    sync_today_new_maps_motd()
 
 def run_sniper():
     print("=" * 70)
-    print("KoG Linux 挂机自动收割服务启动 (Ubuntu 20.04 守护版)")
+    print("KoG Linux 挂机自动收割服务启动 (含今日新图进服自动弹窗)")
     print(f"地图物理存放目录: {OUTPUT_MAPS_DIR}")
     print(f"投票配置存放目录: {VOTES_DIR}")
     print("=" * 70)
@@ -307,15 +375,23 @@ def run_sniper():
     os.makedirs(VOTES_DIR, exist_ok=True)
 
     refresh_all_votes_system()
+    # 启动时先核对一次今天的进服弹窗状态
+    sync_today_new_maps_motd()
+
     existing_maps = get_existing_maps()
     print(f"本地目前有效纯正地图总数: {len(existing_maps)} 张")
-    print("已开启全天候监听（屏蔽一切测试服与非正式地图）...\n" + "=" * 70)
+    print("已开启全天候监听...\n" + "=" * 70)
 
     round_count = 1
     new_downloaded_count = 0
 
     while True:
         try:
+            # 每天午夜日期切换时，自动复位昨天的提示
+            current_day = time.strftime("%Y-%m-%d")
+            if current_day != last_checked_date:
+                sync_today_new_maps_motd()
+
             req = urllib.request.Request(MASTER_URL, headers={"User-Agent": "DDNet", "Connection": "close"})
             with urllib.request.urlopen(req, context=ssl_ctx, timeout=6) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
@@ -350,7 +426,7 @@ def run_sniper():
                         print(f"    合法正式图落盘: maps/{curr_map}.map (大小: {len(map_bytes)/1024:.1f} KB, 源: {source_info})")
 
                         append_map_and_refresh_votes(detected_cat, curr_map)
-                        print(f"    已登记至 votes/{detected_cat.lower()}.cfg 并刷新全部分类数量！")
+                        print(f"    已登记至 votes/{detected_cat.lower()}.cfg 并同步配置今日进服提示！")
 
                         existing_maps.add(curr_map.lower())
                         new_downloaded_count += 1
@@ -359,7 +435,6 @@ def run_sniper():
                         print(f"   ❌ 该地图 CDN 暂未就绪或非合法二进制，下轮重试")
 
             now_time = time.strftime("%Y-%m-%d %H:%M:%S")
-            # Linux journalctl 友好输出，每 5 轮打印一次心跳
             if round_count % 5 == 0:
                 print(f"[{now_time}] 监听中... 活跃正式服: {len(formal_servers)} 个 | 本地图库: {len(existing_maps)} 张 | 新捕获: {new_downloaded_count} 张")
 
