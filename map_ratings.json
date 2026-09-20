@@ -1,0 +1,7639 @@
+{
+ "001": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2023-07-19"
+ },
+ "002": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2021-04-23"
+ },
+ "003": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2021-03-05"
+ },
+ "004": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Beautemps",
+  "released": "2022-01-11"
+ },
+ "005": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2023-05-04"
+ },
+ "007": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Beautemps",
+  "released": "2021-06-18"
+ },
+ "008": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Beautemps",
+  "released": "2021-10-12"
+ },
+ "012": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Beautemps",
+  "released": "2021-05-14"
+ },
+ "069": {
+  "points": 39,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Beautemps",
+  "released": "2021-12-17"
+ },
+ "0Percent": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2019-06-06"
+ },
+ "1Spiral": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2026-01-04"
+ },
+ "2020": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Afterbjörn",
+  "released": "2025-06-28"
+ },
+ "2021": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Afterbjörn",
+  "released": "2025-06-02"
+ },
+ "2025": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Afterbjörn",
+  "released": "2025-03-09"
+ },
+ "2026": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Afterbjörn",
+  "released": "2026-01-01"
+ },
+ "24komyu": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Komyu",
+  "released": "2023-06-04"
+ },
+ "333": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi, mops333",
+  "released": "2021-01-01"
+ },
+ "36_5_buse": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "夜",
+  "released": "2024-05-31"
+ },
+ "48komyu": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Komyu",
+  "released": "2023-10-18"
+ },
+ "4Apfelsaft": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": "2015-05-15"
+ },
+ "700-70": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Яна Соли",
+  "released": "2025-03-30"
+ },
+ "70s": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "夜",
+  "released": "2024-12-30"
+ },
+ "7DeadlySins": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Afterbjörn &amp; ZXC¿Girl?",
+  "released": "2025-08-24"
+ },
+ "80s": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2023-11-12"
+ },
+ "90s": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Tr3agle",
+  "released": "2023-08-10"
+ },
+ "ACID": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "RaiNy",
+  "released": "2019-02-02"
+ },
+ "A_Christmas_Carol": {
+  "points": 41,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Milaseq_, TheSunSan, ipoopi, Krumplee, Route66, Afterbjörn, FJP, ejjie",
+  "released": "2025-12-20"
+ },
+ "Abyss": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "zale, BoWser",
+  "released": "2022-03-08"
+ },
+ "Action": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "bzw",
+  "released": "2018-07-22"
+ },
+ "ActionHallas": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Action &amp; Hallas",
+  "released": ""
+ },
+ "Aerodynamics": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "TheSunSan",
+  "released": "2025-12-29"
+ },
+ "After4Rising": {
+  "points": 3,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Afterbjörn",
+  "released": "2025-07-13"
+ },
+ "After4zuxcess": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Afterbjörn",
+  "released": "2024-11-04"
+ },
+ "Afternight": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Ravie",
+  "released": "2019-01-27"
+ },
+ "Aip-Gores": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Unknown",
+  "released": "2017-07-02"
+ },
+ "Aip-Hardcores": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Themix",
+  "released": "2015-09-17"
+ },
+ "AipFlip": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-10-12"
+ },
+ "Aip_X": {
+  "points": 88,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2025-03-01"
+ },
+ "Aipless": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2025-04-12"
+ },
+ "Aled_to_the_Legend": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "firewave",
+  "released": "2023-12-29"
+ },
+ "Alone": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2019-08-12"
+ },
+ "Alternate": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Route66",
+  "released": "2021-06-01"
+ },
+ "Amethyst": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Spino",
+  "released": "2023-07-30"
+ },
+ "Amol1": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Amol",
+  "released": "2015-05-29"
+ },
+ "Amol2": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Amol",
+  "released": "2015-05-12"
+ },
+ "Anagrama": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "FLipLipp",
+  "released": "2020-09-01"
+ },
+ "Angeldust": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Angeldust",
+  "released": "2020-08-07"
+ },
+ "Angeldust2": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Angeldust",
+  "released": "2020-11-13"
+ },
+ "Angeldust3": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Angeldust",
+  "released": "2021-03-02"
+ },
+ "Angry": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-04-27"
+ },
+ "Anima_Immortalis": {
+  "points": 127,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2026-07-04"
+ },
+ "Anonymous": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Zero, Omesurion",
+  "released": "2021-06-22"
+ },
+ "Anotherworld": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "J4M3S &amp; Zonsa",
+  "released": "2025-08-02"
+ },
+ "Aqua": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Mqx",
+  "released": "2021-12-12"
+ },
+ "Arcturus": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Warto",
+  "released": "2024-03-16"
+ },
+ "Arena": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2023-08-23"
+ },
+ "Arise": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "FJP",
+  "released": "2024-07-20"
+ },
+ "Arua": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "johny tailor",
+  "released": "2026-04-06"
+ },
+ "Arylz4ChillerDragon": {
+  "points": 11,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Arylz",
+  "released": "2025-10-26"
+ },
+ "Arylz4FJP": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Arylz",
+  "released": "2023-12-30"
+ },
+ "Arylz4KoG": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Arylz",
+  "released": "2025-08-02"
+ },
+ "Arylz4Sneaky": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Arylz",
+  "released": "2025-07-05"
+ },
+ "Arylz4ZeroKani": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Arylz",
+  "released": "2025-10-19"
+ },
+ "Arylz4chile": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Arylz",
+  "released": "2026-03-31"
+ },
+ "AscensionToHeaven": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2022-05-31"
+ },
+ "Aster": {
+  "points": 55,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "ipoopi",
+  "released": "2023-07-25"
+ },
+ "Astralyca": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Shiiir0, Xin",
+  "released": "2021-10-29"
+ },
+ "Asunder": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ipoopi",
+  "released": "2024-01-27"
+ },
+ "Atheris4Kaeloo": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Atheris",
+  "released": "2023-04-21"
+ },
+ "Aura": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2023-05-30"
+ },
+ "Autumn_Sunset": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-03-28"
+ },
+ "Awakening": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RealTaco",
+  "released": "2024-12-26"
+ },
+ "BBB": {
+  "points": 78,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Krumplee",
+  "released": "2025-10-12"
+ },
+ "BENEATH_A_DYING_SKY": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "#16161D",
+  "released": "2026-02-16"
+ },
+ "BG13": {
+  "points": 27,
+  "stars": 4,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-03-07"
+ },
+ "BHRX-Competition": {
+  "points": 15,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Bl0odDens, Hallas, RedFight, xRyperion_",
+  "released": ""
+ },
+ "BLACK_SMOKE": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Rei ayanami",
+  "released": "2021-07-09"
+ },
+ "BRUME": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Rei ayanami",
+  "released": "2022-04-01"
+ },
+ "BabyDragger": {
+  "points": 30,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "тυx",
+  "released": "2025-09-01"
+ },
+ "Balada": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2021-11-26"
+ },
+ "Beam": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2019-07-17"
+ },
+ "BecauseMaybe": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Afterbjörn",
+  "released": "2024-09-01"
+ },
+ "Beyblade": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Shyzo",
+  "released": "2017-07-29"
+ },
+ "BitKoG": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RealTaco",
+  "released": "2024-12-08"
+ },
+ "BitLand": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "MoonCake",
+  "released": "2019-03-11"
+ },
+ "Bl0od-Dens10": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0od4Anni": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0od4Isi": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0od4Maxe": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0od4Miku": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0od-Dens",
+  "released": "2017-02-22"
+ },
+ "Bl0od4Waschi": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0od4Zant": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0odDens5": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": "2013-05-13"
+ },
+ "Bl0odDens7": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Bl0odFlip": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens &amp; FlipLipp",
+  "released": ""
+ },
+ "BlackDoods": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-08-30"
+ },
+ "Black_Widow": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2023-12-15"
+ },
+ "Blackwolf": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Beautemps",
+  "released": "2021-01-03"
+ },
+ "Blasphemy": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2020-01-03"
+ },
+ "BloodLine": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "alya?",
+  "released": "2025-12-25"
+ },
+ "BlueMoon": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2019-01-19"
+ },
+ "BlueOne": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kleas_",
+  "released": "2022-08-19"
+ },
+ "BlueSky": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2023-07-05"
+ },
+ "Blueprint": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FJP",
+  "released": "2022-06-14"
+ },
+ "Boardwalk": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FJP",
+  "released": "2022-03-11"
+ },
+ "Bomb_World": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "purrp T",
+  "released": "2020-06-19"
+ },
+ "Bomb_World_2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrp T",
+  "released": "2022-01-04"
+ },
+ "Bomboclad2": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Jonas",
+  "released": "2025-12-01"
+ },
+ "Brexamus": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Nareem",
+  "released": "2021-10-24"
+ },
+ "Bubbly1": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Windy, Omesurion",
+  "released": "2021-10-08"
+ },
+ "BumM2": {
+  "points": 5,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "BumM",
+  "released": ""
+ },
+ "Bushes": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Canarda",
+  "released": "2025-07-22"
+ },
+ "CAKE_SPACE": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "CAKExSNIFFERx42",
+  "released": "2024-10-27"
+ },
+ "CGores": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Colgate",
+  "released": "2019-03-21"
+ },
+ "CGores_2": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Colgate",
+  "released": "2020-07-24"
+ },
+ "CHILL": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Rei ayanami",
+  "released": "2022-06-19"
+ },
+ "CTF_Gores": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "mind",
+  "released": "2020-05-19"
+ },
+ "Caminata": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2021-09-10"
+ },
+ "Canarda4IsaacElenbaas": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Canarda",
+  "released": "2025-08-17"
+ },
+ "CandyLand": {
+  "points": 4,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Krumplee",
+  "released": "2021-05-04"
+ },
+ "CandyWorld": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "feat",
+  "released": "2024-08-11"
+ },
+ "CastleMania": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Krumplee",
+  "released": "2019-06-17"
+ },
+ "Castlicca1": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "konwic",
+  "released": "2020-06-16"
+ },
+ "CatLand": {
+  "points": 81,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2024-06-14"
+ },
+ "CatZone": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2024-02-05"
+ },
+ "Catalan_Aim": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Knuski",
+  "released": "2021-08-20"
+ },
+ "Catalyst": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Afterbjörn",
+  "released": "2025-09-14"
+ },
+ "Caverna": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2022-03-15"
+ },
+ "Celeste": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Sarinha",
+  "released": "2024-09-15"
+ },
+ "Ceniza": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2022-08-09"
+ },
+ "Cereja": {
+  "points": 3,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "WhySara",
+  "released": "2023-02-08"
+ },
+ "ChainsawMan": {
+  "points": 48,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "ejjie &amp; Mixi",
+  "released": "2024-06-30"
+ },
+ "ChainsawMan2": {
+  "points": 73,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ejjie",
+  "released": "2025-07-13"
+ },
+ "Challenger": {
+  "points": 70,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "ѕнαяу",
+  "released": "2025-07-22"
+ },
+ "Charover": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "sasha34827",
+  "released": "2025-04-04"
+ },
+ "CheatMe": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Colgate",
+  "released": "2019-07-12"
+ },
+ "Checkmate": {
+  "points": 29,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "mind",
+  "released": "2024-08-04"
+ },
+ "Cherry": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FJP",
+  "released": "2021-12-07"
+ },
+ "Childs3e": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "ChildOfGod",
+  "released": ""
+ },
+ "ChillerDragon4Jessica": {
+  "points": 19,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores10": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": "2017-10-20"
+ },
+ "ChillerDragores11": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores12": {
+  "points": 24,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores16": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": "2016-12-22"
+ },
+ "ChillerDragores18": {
+  "points": 42,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores20": {
+  "points": 19,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores23": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": "2017-02-27"
+ },
+ "ChillerDragores24": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores25": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "ChillerDragon",
+  "released": "2016-11-06"
+ },
+ "ChillerDragores26": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "ChillerDragon",
+  "released": "2017-02-18"
+ },
+ "ChillerDragores4": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "ChillerDragores7": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "ChillerDragon",
+  "released": ""
+ },
+ "Choinka": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Beautemps &amp; Krumplee",
+  "released": "2021-12-22"
+ },
+ "Circuit": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "FJP",
+  "released": "2023-01-18"
+ },
+ "Citadel": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Money Boy",
+  "released": "2021-10-05"
+ },
+ "CkiS1": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Ckis",
+  "released": "2017-07-26"
+ },
+ "CkiS2": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "CkiS",
+  "released": "2017-06-10"
+ },
+ "CkiS4Juicy": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "CkiS &amp; Roco",
+  "released": ""
+ },
+ "CkiSNox1": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "CkiS",
+  "released": "2017-04-23"
+ },
+ "CkiS_4_CLow": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "CkiS",
+  "released": "2018-06-16"
+ },
+ "CkiS_4_Jimmy": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Ckis",
+  "released": "2020-09-11"
+ },
+ "CkiS_4_Livos": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "CkiS",
+  "released": ""
+ },
+ "CkiS_4_MonkeyDream": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Ckis",
+  "released": "2017-09-21"
+ },
+ "CkiS_4_Samu": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "CkiS",
+  "released": ""
+ },
+ "CkiS_4_effect": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "CkiS",
+  "released": ""
+ },
+ "CkiSbzw1": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "CkiSbzw",
+  "released": "2019-06-18"
+ },
+ "CkiSzale": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "CkiS, zale",
+  "released": "2020-10-27"
+ },
+ "CkisFlip": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp_Ckis",
+  "released": "2018-10-11"
+ },
+ "CkisFlip2": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "FlipLipp_Ckis",
+  "released": "2020-01-17"
+ },
+ "CkisTerston1": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "CkisTerston",
+  "released": "2017-08-11"
+ },
+ "Ckis_4_unskilledplayer": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ckis",
+  "released": "2019-07-25"
+ },
+ "Clean": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2021-02-19"
+ },
+ "ClosedTime": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Themed",
+  "released": "2022-12-01"
+ },
+ "ColdNight": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp_Protokol",
+  "released": "2019-04-12"
+ },
+ "ColdNight_twisted": {
+  "points": 0,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "mind",
+  "released": "2024-12-17"
+ },
+ "ColorCube1": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Krixe",
+  "released": "2023-03-01"
+ },
+ "ColorCube2": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Krixe",
+  "released": "2024-12-25"
+ },
+ "Conchetumare_X": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Phobos",
+  "released": "2021-11-07"
+ },
+ "Conchetumare_Z": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Tae",
+  "released": "2023-03-25"
+ },
+ "Connerics": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-11-30"
+ },
+ "Cooldown_by_Shyzo": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Shyzo",
+  "released": "2018-06-29"
+ },
+ "Cooper1": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Cooper",
+  "released": ""
+ },
+ "Corazon4Drakenmake": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Corazon",
+  "released": "2019-06-15"
+ },
+ "Corazon4Ym2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Corazon",
+  "released": "2019-01-28"
+ },
+ "Corazon4caroLin": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Corazon",
+  "released": "2022-02-08"
+ },
+ "Corazon4himself": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Corazon",
+  "released": "2019-07-23"
+ },
+ "Corazon4maxrider2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Corazon",
+  "released": "2019-01-17"
+ },
+ "Corrode": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "wer1xx",
+  "released": "2026-08-16"
+ },
+ "Corrupted": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "JSON",
+  "released": "2020-09-08"
+ },
+ "Corrupted_Easy": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "JSON",
+  "released": "2020-08-11"
+ },
+ "Corrupted_Extreme": {
+  "points": 87,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "JSON",
+  "released": "2023-09-30"
+ },
+ "CrackedMoon": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-04-02"
+ },
+ "CrispEZ": {
+  "points": 3,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Crispy",
+  "released": "2023-03-30"
+ },
+ "Crispy4Yoin": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Crispy",
+  "released": "2022-03-04"
+ },
+ "Crucified": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2025-03-30"
+ },
+ "Cyanica": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "nova",
+  "released": "2024-05-25"
+ },
+ "D4rn4SForMeow": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "D4rn4S",
+  "released": "2024-05-26"
+ },
+ "DANCING_FREEZE": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Rei ayanami",
+  "released": "2022-08-07"
+ },
+ "DM_Gores": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "mind",
+  "released": "2022-11-29"
+ },
+ "Dandelinux": {
+  "points": 1,
+  "stars": 1,
+  "category": "Easy",
+  "mapper": "tux",
+  "released": "2021-06-11"
+ },
+ "Danil4Syltoox": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Danil",
+  "released": "2018-12-15"
+ },
+ "DarkFluff": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "nr6man",
+  "released": "2025-09-23"
+ },
+ "DarkGen": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2020-01-29"
+ },
+ "DarkKitty": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2017-07-27"
+ },
+ "Dawn": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Zonsa",
+  "released": "2021-08-31"
+ },
+ "DeadHook": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Zonsa",
+  "released": "2025-06-09"
+ },
+ "DeadlyPath": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-10-07"
+ },
+ "Dearevil": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Themix",
+  "released": "2025-06-02"
+ },
+ "DeathHook": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Jonas",
+  "released": "2026-08-31"
+ },
+ "Deceived": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "cc",
+  "released": "2020-03-01"
+ },
+ "Decimation": {
+  "points": 27,
+  "stars": 4,
+  "category": "Unknown",
+  "mapper": "elnoid",
+  "released": "2024-03-08"
+ },
+ "DeepMadness": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ryozuki",
+  "released": ""
+ },
+ "DeepSea": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Zale, BoWser",
+  "released": "2022-11-15"
+ },
+ "Deluxe": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "bzw",
+  "released": "2019-04-19"
+ },
+ "Demonic": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "elnoid &amp; Tae",
+  "released": "2024-01-16"
+ },
+ "Descarkent": {
+  "points": 70,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2025-04-27"
+ },
+ "DesertQuest": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "TeeShirt_purrpT",
+  "released": "2020-02-20"
+ },
+ "Destin2": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "destin &amp; Kero",
+  "released": ""
+ },
+ "Discipline": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "ѕнαяу",
+  "released": "2024-05-11"
+ },
+ "DoorWays": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "Шизик",
+  "released": "2023-01-10"
+ },
+ "Doppel": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Beautemps, Doppelganger",
+  "released": "2021-04-02"
+ },
+ "Doumed": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "badoumed",
+  "released": "2022-02-25"
+ },
+ "DragonLore": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Omezurion",
+  "released": "2023-01-08"
+ },
+ "Drakengores_1": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Drakenmake",
+  "released": "2017-12-30"
+ },
+ "Dream": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2020-08-18"
+ },
+ "Dreamland": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Deploid, se",
+  "released": "2021-02-02"
+ },
+ "DummyPhantom": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "tux",
+  "released": "2020-11-27"
+ },
+ "DuskyDrop": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "TeChNoBaSe",
+  "released": "2017-06-10"
+ },
+ "Dusty_Trip": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Canarda",
+  "released": "2025-05-03"
+ },
+ "Dynasty": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Vida",
+  "released": "2024-11-17"
+ },
+ "DyrteeZ": {
+  "points": 3,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Zonsa",
+  "released": "2023-08-13"
+ },
+ "Dystopia": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Afterbjörn &amp; FJP",
+  "released": "2026-02-22"
+ },
+ "E4RG": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "essen1tty",
+  "released": "2022-05-03"
+ },
+ "EARFQUAKE": {
+  "points": 71,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "ejjie &amp; DragonFrey",
+  "released": "2025-02-08"
+ },
+ "Eating_Hooks": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Fliplipp, Hesse",
+  "released": "2021-08-02"
+ },
+ "EchoCanyon": {
+  "points": 27,
+  "stars": 4,
+  "category": "Unknown",
+  "mapper": "alya?",
+  "released": "2026-05-19"
+ },
+ "Eden": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Noe",
+  "released": "2017-07-21"
+ },
+ "Elythrix": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "xewoiy",
+  "released": "2025-09-07"
+ },
+ "Emerald_of_Gores": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "alya?",
+  "released": "2026-03-03"
+ },
+ "Encore": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "encore[love]",
+  "released": ""
+ },
+ "Encore2": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "encore[love]",
+  "released": ""
+ },
+ "Encore3e": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "encore[love]",
+  "released": ""
+ },
+ "Encore4e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "encore[love]",
+  "released": ""
+ },
+ "End_of_Sunny_Days": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "ρнιʐyxxx",
+  "released": "2025-12-30"
+ },
+ "Entitres": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Themix",
+  "released": "2017-01-05"
+ },
+ "Ephemeral": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "purrp T",
+  "released": "2020-12-25"
+ },
+ "Error404": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ѕнαяу",
+  "released": "2024-03-31"
+ },
+ "Erys": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Destin",
+  "released": "2019-07-14"
+ },
+ "Esaisy": {
+  "points": 14,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-12-28"
+ },
+ "Escape": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Hawerer",
+  "released": ""
+ },
+ "Escape2": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Hawerer",
+  "released": ""
+ },
+ "Escenitty4Mano": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Escenitty",
+  "released": "2022-11-28"
+ },
+ "Esox": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "mind",
+  "released": "2025-09-07"
+ },
+ "Estern1e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Estern",
+  "released": ""
+ },
+ "Etuor": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Route66",
+  "released": "2021-12-03"
+ },
+ "Evaporate": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ZXC¿Girl?",
+  "released": "2025-04-13"
+ },
+ "Evening": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Mqx",
+  "released": "2022-01-28"
+ },
+ "EvilSunset": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shiiir0",
+  "released": "2021-06-27"
+ },
+ "ExTr3": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Tr3agle, ExMonarch",
+  "released": "2023-06-16"
+ },
+ "Exorcism": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Krumplee",
+  "released": "2020-02-12"
+ },
+ "F1": {
+  "points": 23,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ρнιʐyxxx",
+  "released": "2025-12-26"
+ },
+ "F2": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "ρнιʐyxxx",
+  "released": "2026-05-05"
+ },
+ "FJP030": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FJP, sd030",
+  "released": "2022-06-24"
+ },
+ "FJPxJonas": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FJP &amp; Jonas",
+  "released": "2026-01-12"
+ },
+ "FalltimeSunset": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2020-03-22"
+ },
+ "Fearless": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Afterbjörn",
+  "released": "2024-11-10"
+ },
+ "Feet4Tyrone": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ssor",
+  "released": "2023-05-25"
+ },
+ "Flamingu": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "ChillerDragon_aka_flamingu",
+  "released": "2017-02-02"
+ },
+ "Flip420": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-03-05"
+ },
+ "Flip4Benny": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2019-01-15"
+ },
+ "Flip4Bonny": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-04-30"
+ },
+ "Flip4Busted": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2021-01-09"
+ },
+ "Flip4Crack": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2020-10-31"
+ },
+ "Flip4Hakurei": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-05-10"
+ },
+ "Flip4Krumplee": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2020-06-09"
+ },
+ "Flip4Samo": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-05-10"
+ },
+ "Flip4Skiusep": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2020-03-26"
+ },
+ "Flip4U": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-10-09"
+ },
+ "Flip4feat": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-05-18"
+ },
+ "FlipBzw": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-08-11"
+ },
+ "FlipBzw2": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp_bzw",
+  "released": "2019-02-20"
+ },
+ "FlipChillerDestin": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp, ChillerDragon &amp; Destin",
+  "released": ""
+ },
+ "FlipDragonYo": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp, Yo &amp; ChillerDragon",
+  "released": ""
+ },
+ "FlipFeat": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2018-10-07"
+ },
+ "FlipFeat3": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "FlipLipp &amp; feat",
+  "released": "2026-01-31"
+ },
+ "FlipGores": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2019-03-16"
+ },
+ "FlipGores2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2023-08-01"
+ },
+ "FlipHoffi": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp &amp; HoffiPL",
+  "released": ""
+ },
+ "FlipLipp": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp10e": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp11": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp12": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp13": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp14": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp15": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp16": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp17": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp19": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp21": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp23": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp25": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp26": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp27": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-01-20"
+ },
+ "FlipLipp28": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "FlippLipp",
+  "released": "2018-04-14"
+ },
+ "FlipLipp29": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlippLipp",
+  "released": "2018-04-29"
+ },
+ "FlipLipp2e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp30": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-05-05"
+ },
+ "FlipLipp31": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2018-06-18"
+ },
+ "FlipLipp32": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Fliplipp",
+  "released": "2018-07-17"
+ },
+ "FlipLipp33": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Fliplipp",
+  "released": "2018-07-07"
+ },
+ "FlipLipp34": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Fliplipp",
+  "released": "2018-08-26"
+ },
+ "FlipLipp35": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-09-28"
+ },
+ "FlipLipp36": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-10-23"
+ },
+ "FlipLipp37": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2018-09-28"
+ },
+ "FlipLipp38": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-11-22"
+ },
+ "FlipLipp39": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2024-05-18"
+ },
+ "FlipLipp3e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp4": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp40": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2025-02-17"
+ },
+ "FlipLipp41": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2024-07-23"
+ },
+ "FlipLipp5": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp6": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp7": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp8e": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipLipp9e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": ""
+ },
+ "FlipNeo4Chile": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Fliplipp",
+  "released": "2018-06-29"
+ },
+ "Flipfeat2": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FlipLipp, Feat",
+  "released": "2022-11-21"
+ },
+ "FlippLipp6": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "FlippLipp",
+  "released": "2018-03-30"
+ },
+ "Floatie": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "BeatDown",
+  "released": "2022-07-22"
+ },
+ "Fly_to_the_Legends": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "nealson T'nP",
+  "released": "2022-12-15"
+ },
+ "Fly_to_the_Legends_2": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "nealson T'nP",
+  "released": "2022-12-15"
+ },
+ "Fly_to_the_Mix": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-01-27"
+ },
+ "FortCrispy": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Crispy",
+  "released": "2023-10-02"
+ },
+ "Framemogged": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "CeyCen",
+  "released": "2026-04-14"
+ },
+ "FreeMazanitax": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Colo-Colo",
+  "released": "2023-08-27"
+ },
+ "FreedomDive": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Afterbjörn",
+  "released": "2024-06-02"
+ },
+ "FridayThe13th": {
+  "points": 3,
+  "stars": 1,
+  "category": "Unknown",
+  "mapper": "ejjie",
+  "released": "2026-02-13"
+ },
+ "Frostgale_Canyon": {
+  "points": 61,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "mrs.",
+  "released": "2023-12-22"
+ },
+ "Frosty": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "purrp T",
+  "released": "2021-02-12"
+ },
+ "Frosty_twisted": {
+  "points": 0,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "",
+  "released": "2024-11-30"
+ },
+ "Fuga": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2023-11-28"
+ },
+ "Fujito": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Krumplee",
+  "released": "2019-07-08"
+ },
+ "Furia": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2024-05-05"
+ },
+ "Generic_Purple": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2019-06-27"
+ },
+ "Generic_Yellow": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2026-09-06"
+ },
+ "Genex4Drakenmake": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Genex",
+  "released": "2019-01-27"
+ },
+ "Gesteinskoernchen": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2019-09-28"
+ },
+ "Ghoti": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Aƞix1TW &amp; Warto",
+  "released": "2025-05-18"
+ },
+ "Gianth": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gianth",
+  "released": "2016-10-29"
+ },
+ "Gigachad": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Tyrone, Rei Ayanami",
+  "released": "2023-01-02"
+ },
+ "Gloaming": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Shivi",
+  "released": "2024-12-24"
+ },
+ "GoWindy1": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Windy",
+  "released": "2022-09-05"
+ },
+ "GoldDigga": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "GoldDigga",
+  "released": "2017-08-18"
+ },
+ "Goldie": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "MoonCake",
+  "released": "2019-01-15"
+ },
+ "Goldiensane": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "purrp T",
+  "released": "2021-11-19"
+ },
+ "GoodWENTEE": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "sd030",
+  "released": "2022-05-13"
+ },
+ "GooreZ": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2019-05-28"
+ },
+ "Gorace": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "tux",
+  "released": "2019-08-04"
+ },
+ "Gores-Dream1": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "---",
+  "released": ""
+ },
+ "Gores_of_Diamonds": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "mind",
+  "released": "2022-05-21"
+ },
+ "Gores_of_Spades": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "mind",
+  "released": "2022-12-03"
+ },
+ "Goresco": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-06-08"
+ },
+ "Gradzes": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-06-18"
+ },
+ "Granulos_De_Roca": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Zonsa",
+  "released": "2020-07-21"
+ },
+ "Grassless": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Minem",
+  "released": "2026-02-16"
+ },
+ "Grassy_Lands": {
+  "points": 41,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Canarda",
+  "released": "2025-09-23"
+ },
+ "Grayscale": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2023-12-31"
+ },
+ "Green": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mqx",
+  "released": "2026-03-31"
+ },
+ "GreenMoon": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-12-11"
+ },
+ "GreeniRedFight": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Greeni &amp; RedFight",
+  "released": ""
+ },
+ "Greeny": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "KOF",
+  "released": "2022-04-26"
+ },
+ "GreyZ": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Zonsa",
+  "released": "2020-06-21"
+ },
+ "Greyfox": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2022-01-02"
+ },
+ "Greylight": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Krixe",
+  "released": "2022-07-05"
+ },
+ "Gridwyn2": {
+  "points": 19,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn3": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn4": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn5": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn6": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn7": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Gridwyn8": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Gridwyn",
+  "released": ""
+ },
+ "Grieta": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2021-11-03"
+ },
+ "Ground": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "JSON",
+  "released": "2021-01-22"
+ },
+ "Grusland": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2024-12-30"
+ },
+ "Grusland2": {
+  "points": 70,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "bzw",
+  "released": "2024-12-31"
+ },
+ "GuessRocks": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Ravie",
+  "released": "2020-06-26"
+ },
+ "Gundeon": {
+  "points": 101,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2023-12-19"
+ },
+ "Gundeon_2": {
+  "points": 88,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2026-07-04"
+ },
+ "Habbo": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "ZXC¿Girl?",
+  "released": "2025-10-05"
+ },
+ "Hailstorm": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Quinn, Latexxs.",
+  "released": "2022-11-15"
+ },
+ "Hasselbach": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Hesse",
+  "released": "2024-07-17"
+ },
+ "Hawerdummy": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "Hawerer",
+  "released": "2018-03-09"
+ },
+ "HeatUp_by_Shyzo": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-06-17"
+ },
+ "Heatwaves": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Crispy",
+  "released": "2023-08-19"
+ },
+ "Heavens_End": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "purrp T",
+  "released": "2021-12-24"
+ },
+ "Hendrix4Xoxo": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Hendrix",
+  "released": "2022-02-04"
+ },
+ "Henesys": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Larlok",
+  "released": "2018-08-16"
+ },
+ "HeyBzw": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "bzw",
+  "released": "2022-03-01"
+ },
+ "HeyTux": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "TUX",
+  "released": "2018-05-13"
+ },
+ "HeyTux2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Tux",
+  "released": "2018-08-13"
+ },
+ "HeyTux3": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "TUX",
+  "released": "2018-09-23"
+ },
+ "HeyTux4": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Tux",
+  "released": "2018-11-27"
+ },
+ "HeyTux5": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Tux",
+  "released": "2018-12-23"
+ },
+ "HeyTux6": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Tux",
+  "released": "2019-11-20"
+ },
+ "HeyTux7": {
+  "points": 8,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "тυx",
+  "released": "2025-10-19"
+ },
+ "HiddenIsland": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2018-02-27"
+ },
+ "Himalaya": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "Brokecdx",
+  "released": "2019-08-08"
+ },
+ "Himalaya2": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "Brokecdx-",
+  "released": "2022-05-10"
+ },
+ "Himalaya3": {
+  "points": 39,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Brokecdx-",
+  "released": "2025-04-20"
+ },
+ "Hoarfrost": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Omezurion",
+  "released": "2023-03-10"
+ },
+ "Hoarfrost2": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Omezurion",
+  "released": "2023-05-19"
+ },
+ "Hoarfrost_twisted": {
+  "points": 0,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "mind",
+  "released": "2024-12-14"
+ },
+ "Honeycomb": {
+  "points": 29,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Route66",
+  "released": "2022-05-06"
+ },
+ "Hooksy": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "ZXC¿Girl?",
+  "released": "2025-09-29"
+ },
+ "Humik4Alea": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "humik",
+  "released": "2022-02-11"
+ },
+ "IceBox": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Genex, JSON",
+  "released": "2021-07-02"
+ },
+ "Icebreaker": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "AKc0RiZer",
+  "released": "2017-09-26"
+ },
+ "Icicle": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "beatdown",
+  "released": "2023-01-21"
+ },
+ "Iloveyoumoreeachtimeyoudie": {
+  "points": 98,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2023-09-09"
+ },
+ "Im_Climb5": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Zerox",
+  "released": ""
+ },
+ "Im_Climb_2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Im_Climb",
+  "released": ""
+ },
+ "Imaginary_Voyage": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Shiiir0, Xin",
+  "released": "2021-05-25"
+ },
+ "ImagineThePain": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2022-01-21"
+ },
+ "ImpelDown": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "MoonCake",
+  "released": "2021-09-03"
+ },
+ "Impossible": {
+  "points": 47,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Yo",
+  "released": "2016-12-22"
+ },
+ "Impossible_2": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Yo",
+  "released": "2021-08-13"
+ },
+ "Improvise": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Knuski",
+  "released": "2019-11-24"
+ },
+ "Inception": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Brokecdx Miiep",
+  "released": "2019-06-24"
+ },
+ "Infinished": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Infi",
+  "released": "2023-09-12"
+ },
+ "InkTerston1": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2017-08-27"
+ },
+ "Innercise": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2025-05-23"
+ },
+ "Insaipteleres": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-10-04"
+ },
+ "Insane": {
+  "points": 71,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Ssor",
+  "released": "2023-09-08"
+ },
+ "Insanious": {
+  "points": 71,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "purrp T",
+  "released": "2021-10-26"
+ },
+ "Insidious": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FJP",
+  "released": "2023-08-15"
+ },
+ "Interstellar": {
+  "points": 29,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Brokecdx_&amp;_Miiep",
+  "released": "2018-11-17"
+ },
+ "IntoTheFog": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "purrp T",
+  "released": "2020-07-10"
+ },
+ "Jauria": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2022-06-21"
+ },
+ "Jebeto-Gores": {
+  "points": 4,
+  "stars": 1,
+  "category": "Mod",
+  "mapper": "Jebeto",
+  "released": ""
+ },
+ "JoKGores": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "JoKAir",
+  "released": "2022-04-08"
+ },
+ "Jore4NANAMAR": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Jore",
+  "released": "2021-01-10"
+ },
+ "Jungle_Safari": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Bo₩ser",
+  "released": "2024-06-20"
+ },
+ "JustCommunity": {
+  "points": 48,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Mixi, Szymon",
+  "released": "2021-07-27"
+ },
+ "JustTeE4JustNoob": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Just_TeE",
+  "released": "2016-11-26"
+ },
+ "Just_Gores7": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Just_TeE",
+  "released": ""
+ },
+ "Just_Gores8": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Just_TeE",
+  "released": ""
+ },
+ "Just_Gores9": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Just_Tee",
+  "released": ""
+ },
+ "Just_TeE3": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Just_TeE3",
+  "released": ""
+ },
+ "Just_Team1": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Just_TeE",
+  "released": ""
+ },
+ "Justice": {
+  "points": 3,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Afterbjörn",
+  "released": "2026-04-21"
+ },
+ "Kaston": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ZXC¿Girl? &amp; Twisted",
+  "released": "2025-08-17"
+ },
+ "Kawk_Doo": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "곽 두",
+  "released": "2024-06-07"
+ },
+ "Kero-Gores1": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kero-Gores3": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kero-Gores4": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kero-Gores5": {
+  "points": 8,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kero-Gores6": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kero-Gores7": {
+  "points": 8,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": "2017-08-27"
+ },
+ "Kero4QshaR": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": "2018-05-31"
+ },
+ "Kero4cooper": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "KeroDummy": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "Kickmix": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Kicker, Themix",
+  "released": "2020-09-04"
+ },
+ "King_of_Darkness": {
+  "points": 55,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Bibek",
+  "released": "2025-07-04"
+ },
+ "King_of_Mountains": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi, Beautemps",
+  "released": "2021-03-09"
+ },
+ "Knight1e": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Knight",
+  "released": ""
+ },
+ "Knutz1": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Knuski",
+  "released": "2020-10-01"
+ },
+ "KoGHub": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2021-10-17"
+ },
+ "KogWatch": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "PumaYT",
+  "released": "2022-03-22"
+ },
+ "Koggers": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Tyrone",
+  "released": "2023-10-12"
+ },
+ "Kogritos": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "ZXC¿Girl?",
+  "released": "2025-05-23"
+ },
+ "Krumplee": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Milaseq_",
+  "released": "2025-12-15"
+ },
+ "KrumpleeLand": {
+  "points": 70,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Krumplee",
+  "released": "2021-12-26"
+ },
+ "KrumpleePark": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Krumplee",
+  "released": "2024-01-08"
+ },
+ "KrumpleeWorld": {
+  "points": 88,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Krumplee",
+  "released": "2026-07-04"
+ },
+ "LUNATIC": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Rei ayanami",
+  "released": "2022-01-07"
+ },
+ "Lair": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "FJP",
+  "released": "2023-09-23"
+ },
+ "LamaBro": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Yo",
+  "released": "2016-10-25"
+ },
+ "LikeAFlo": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Destin",
+  "released": "2021-10-19"
+ },
+ "Lilac": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "FJP",
+  "released": "2022-01-25"
+ },
+ "Lionheart": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "konwic",
+  "released": "2020-11-17"
+ },
+ "LittleCandles": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "MoonCake",
+  "released": "2020-06-12"
+ },
+ "LittlePark": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "madison56",
+  "released": "2025-07-04"
+ },
+ "Lluvia": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Warto",
+  "released": "2025-09-29"
+ },
+ "London": {
+  "points": 11,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-09-01"
+ },
+ "LookAtMe": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "ejjiе",
+  "released": "2024-06-30"
+ },
+ "Lord_of_the_Rings": {
+  "points": 127,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2023-12-28"
+ },
+ "LuLu-Gores": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "LuLu",
+  "released": ""
+ },
+ "MATTE": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Rei ayanami",
+  "released": "2021-11-09"
+ },
+ "MOJITO": {
+  "points": 48,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Jore, Mixi",
+  "released": "2021-08-10"
+ },
+ "MTr": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Waguriッ",
+  "released": "2022-11-24"
+ },
+ "Madriguera": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2022-02-18"
+ },
+ "Magikarp": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2024-07-25"
+ },
+ "Mainiac": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Marmare",
+  "released": "2019-09-14"
+ },
+ "Marceline": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "RaiNy",
+  "released": "2017-05-21"
+ },
+ "Master": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Tr3agle",
+  "released": "2023-05-07"
+ },
+ "Mechanica": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "humik",
+  "released": "2022-04-12"
+ },
+ "Mechanica_II": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "humik",
+  "released": "2023-01-24"
+ },
+ "Mechanical": {
+  "points": 27,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "ᴄʀʏsɪs",
+  "released": "2025-08-03"
+ },
+ "Meliogor": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Meliodafu",
+  "released": ""
+ },
+ "Meliogor2": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Meliodafu",
+  "released": ""
+ },
+ "Metal": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2022-12-15"
+ },
+ "Metal2": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2023-04-07"
+ },
+ "Micksee": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2025-02-22"
+ },
+ "Miiep4Miezii": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Miiep",
+  "released": "2019-02-23"
+ },
+ "Miku4Lama": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Hatsune Miku",
+  "released": "2016-11-16"
+ },
+ "Miku4MonkeyDream": {
+  "points": 24,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "HatsuneMiku",
+  "released": "2017-10-01"
+ },
+ "MikuEasy": {
+  "points": 4,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Hatsune_Miku",
+  "released": "2017-08-13"
+ },
+ "MikuGores": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "HatsuneMiku",
+  "released": "2018-05-31"
+ },
+ "Milamap": {
+  "points": 51,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Milaseq_",
+  "released": "2026-08-23"
+ },
+ "Milerty": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "sasha34827",
+  "released": "2025-12-31"
+ },
+ "Milkyway": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-08-03"
+ },
+ "Mimi": {
+  "points": 80,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Milaseq_ &amp; Mixi",
+  "released": "2026-02-22"
+ },
+ "Mimixi": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2024-12-24"
+ },
+ "MinTurquoise": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2019-02-14"
+ },
+ "Mine": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Oмezurion",
+  "released": "2021-07-23"
+ },
+ "Minecraft": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Hasty, Freguês",
+  "released": "2023-02-17"
+ },
+ "Miniature_Fantasy": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "Themix",
+  "released": ""
+ },
+ "Minimalist1": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2020-05-26"
+ },
+ "Minimalist2": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Beautemps",
+  "released": "2020-12-18"
+ },
+ "Mintfresh": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Afterbjörn",
+  "released": "2024-06-16"
+ },
+ "Mintfresh_II": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Afterbjörn",
+  "released": "2024-12-28"
+ },
+ "Miwackle": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "sasha34827 &amp; ŁoʋƙieeŞ散",
+  "released": "2026-03-08"
+ },
+ "Mixi1": {
+  "points": 47,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2020-11-24"
+ },
+ "Mixi2": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-01-08"
+ },
+ "Mixi3": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-05-18"
+ },
+ "Mixi4": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-09-17"
+ },
+ "Mixi4Anni": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Mixi",
+  "released": "2023-04-16"
+ },
+ "Mixi4Denkstdu": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Mixi",
+  "released": "2023-02-22"
+ },
+ "Mixi4Hawerer": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2023-12-07"
+ },
+ "Mixi4KKUBA102": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2020-09-26"
+ },
+ "Mixi4Karolina": {
+  "points": 48,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2024-12-27"
+ },
+ "Mixi4Migget": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2021-12-10"
+ },
+ "Mixi4Miku": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2021-12-05"
+ },
+ "Mixi4QshaR": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2023-10-22"
+ },
+ "Mixi4RaiNy": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Mixi",
+  "released": "2022-02-22"
+ },
+ "Mixi4Rouz": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2022-12-30"
+ },
+ "Mixi4Zonsa": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2023-09-27"
+ },
+ "Mixi4isen": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Mixi",
+  "released": "2022-02-01"
+ },
+ "Mixi4jkaem": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Mixi",
+  "released": "2024-05-19"
+ },
+ "Mixi4kamillentee": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Mixi",
+  "released": "2024-01-13"
+ },
+ "Mixi5": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2024-03-02"
+ },
+ "Mixi6": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2022-12-22"
+ },
+ "Mixtux": {
+  "points": 27,
+  "stars": 4,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-04-23"
+ },
+ "Monochromik": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Synonym",
+  "released": "2020-10-23"
+ },
+ "Monstro": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Deploid",
+  "released": "2022-08-12"
+ },
+ "MoonFlip": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "MoonFlip",
+  "released": "2019-05-26"
+ },
+ "MoonIX": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ŁoʋƙieeŞ散",
+  "released": "2025-12-31"
+ },
+ "Moonlight": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Windy",
+  "released": "2025-12-08"
+ },
+ "MorfeusGrydwin": {
+  "points": 9,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Morfeus &amp; Grydwin",
+  "released": ""
+ },
+ "Morrow": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Jore",
+  "released": "2023-06-12"
+ },
+ "Mqx1": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Mqx",
+  "released": "2025-12-22"
+ },
+ "MqxTnul": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Mqx, Tnul",
+  "released": "2023-10-14"
+ },
+ "Muay_Thai": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Knuski",
+  "released": "2021-11-01"
+ },
+ "Munchy": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "CeyCen",
+  "released": "2026-05-11"
+ },
+ "MyStery": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Mystery Fox",
+  "released": ""
+ },
+ "N4B": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Nightmare",
+  "released": "2018-10-06"
+ },
+ "N4D": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Nightmare",
+  "released": "2018-11-01"
+ },
+ "N4M": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Nightmare",
+  "released": "2019-01-23"
+ },
+ "N4T": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Nightmare",
+  "released": "2018-12-15"
+ },
+ "NareemKero": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Nareem &amp; Kero",
+  "released": ""
+ },
+ "Naruto": {
+  "points": 48,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Bo₩ser, Mixi, FJP, Crispy",
+  "released": "2023-04-02"
+ },
+ "NealsonCkiS1": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "nealson TnP and CkiS",
+  "released": ""
+ },
+ "NealsonCkiS5": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Nealson &amp; CkiS",
+  "released": ""
+ },
+ "NealsonCkiS8": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Nealson TnP",
+  "released": ""
+ },
+ "NealsonSpeedy": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Nealson Tn'P",
+  "released": ""
+ },
+ "Nertato4Gummi": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Nertato",
+  "released": "2019-09-22"
+ },
+ "Neverland": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "MoonCake",
+  "released": "2019-05-20"
+ },
+ "Night-Shadow": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-09-14"
+ },
+ "NightSky": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Hunter.exe",
+  "released": "2022-11-21"
+ },
+ "Nighthawk": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Ravie",
+  "released": "2019-06-13"
+ },
+ "Nightingale": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Raks, I am not",
+  "released": "2023-07-15"
+ },
+ "NoWENTEE": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "sd030",
+  "released": "2022-07-15"
+ },
+ "No_mercy": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "Milaseq_",
+  "released": "2025-12-31"
+ },
+ "Noctulo": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "elnoid",
+  "released": "2024-07-11"
+ },
+ "Nocturne": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "Canarda",
+  "released": "2026-03-08"
+ },
+ "Noe1": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Noe",
+  "released": "2021-05-07"
+ },
+ "Nox1": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Nox",
+  "released": "2016-11-23"
+ },
+ "Nox2": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Nox",
+  "released": "2017-06-25"
+ },
+ "Nox4Flo": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "delete",
+  "released": "2021-09-28"
+ },
+ "Nox4Monkey": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Nox",
+  "released": ""
+ },
+ "NoxFlip": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Nox",
+  "released": "2018-10-03"
+ },
+ "NoxiBoxi": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nox",
+  "released": ""
+ },
+ "Nujabes_Gores": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2025-02-15"
+ },
+ "Nyanto4FlameKing": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Nyanto",
+  "released": "2018-06-29"
+ },
+ "Nyanto4Graves": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2017-08-20"
+ },
+ "Nyanto4Mamax": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2017-10-22"
+ },
+ "Nyanto4Xola": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "Nyanto",
+  "released": "2017-03-18"
+ },
+ "NyantoDummy": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Nyanto",
+  "released": "2018-08-24"
+ },
+ "NyantoFT": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Nyanto",
+  "released": "2017-11-06"
+ },
+ "NyantoFY": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2016-12-01"
+ },
+ "Nytherial": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "johny tailor",
+  "released": "2026-06-29"
+ },
+ "Nyxol": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "xewoiy",
+  "released": "2026-07-05"
+ },
+ "Nyxtharandriulian": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "xewoiy",
+  "released": "2026-05-24"
+ },
+ "Oaklands": {
+  "points": 3,
+  "stars": 1,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-12-17"
+ },
+ "Oasis": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Neo",
+  "released": "2019-01-22"
+ },
+ "Octagores": {
+  "points": 61,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Fliplipp,Hesse",
+  "released": "2023-09-25"
+ },
+ "OldSchool2": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Fliplipp",
+  "released": "2018-08-28"
+ },
+ "Oldschool": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Fliplipp",
+  "released": "2018-08-18"
+ },
+ "Oldschool3": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-10-05"
+ },
+ "Omesurion4Luckuy21": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Oмezurion",
+  "released": "2021-11-28"
+ },
+ "Omesurion4Shayze": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Omezurion",
+  "released": "2022-03-29"
+ },
+ "Omesurion4cagent": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Oмezurion",
+  "released": "2021-04-13"
+ },
+ "Omezurion4Neo": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Omezurion",
+  "released": "2022-07-29"
+ },
+ "Omezurion4escenitty": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Omezurion",
+  "released": "2022-07-26"
+ },
+ "Ominous": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2019-08-10"
+ },
+ "One_N": {
+  "points": 18,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "sasha34827",
+  "released": "2025-12-31"
+ },
+ "Operaenna": {
+  "points": 64,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2024-08-03"
+ },
+ "Otherworld": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "V4CUOUS",
+  "released": "2019-07-23"
+ },
+ "Otherworldly_Way": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "ZXC¿Girl?",
+  "released": "2024-12-29"
+ },
+ "OutOfTheSky": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2020-02-04"
+ },
+ "Outer": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Route66",
+  "released": "2022-01-14"
+ },
+ "Overclocked": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Omezurion",
+  "released": "2023-06-01"
+ },
+ "PDW": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2022-11-21"
+ },
+ "PEAK": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Afterbjörn",
+  "released": "2026-06-21"
+ },
+ "Panik-Gores": {
+  "points": 6,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Panik",
+  "released": ""
+ },
+ "Panik4Shero": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Panik",
+  "released": ""
+ },
+ "Panther": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Crispy",
+  "released": "2024-12-26"
+ },
+ "Paradise_Island": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Feat",
+  "released": "2018-09-28"
+ },
+ "Paris": {
+  "points": 11,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Ssor",
+  "released": "2023-12-02"
+ },
+ "PartlyCloudy": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Anti",
+  "released": "2023-03-16"
+ },
+ "Pastelirycs": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2019-10-17"
+ },
+ "Pater": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "sasha34827",
+  "released": "2025-06-09"
+ },
+ "PatrickStar": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "PatrickStar",
+  "released": ""
+ },
+ "PeaceDeath": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Nyanto",
+  "released": "2017-09-23"
+ },
+ "Peaceful": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Ssor",
+  "released": "2024-02-15"
+ },
+ "Pepino": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "cc",
+  "released": "2019-12-29"
+ },
+ "Peuma": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Mathysplayer",
+  "released": "2021-09-21"
+ },
+ "Phoenix": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Maze",
+  "released": "2021-07-20"
+ },
+ "Pickuchi": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "phizyxxx &amp; ωerιx",
+  "released": "2025-09-14"
+ },
+ "Piece_of_Sheet": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Jore",
+  "released": "2021-06-20"
+ },
+ "Pillars": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2021-09-07"
+ },
+ "Pinkdream": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Shivi",
+  "released": "2024-02-01"
+ },
+ "Pinko": {
+  "points": 11,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "ρнιʐyxxx",
+  "released": "2025-12-28"
+ },
+ "Pipparo": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Milaseq_",
+  "released": "2025-11-23"
+ },
+ "Planetux": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "tux",
+  "released": "2020-01-02"
+ },
+ "Plumeria": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Windy",
+  "released": "2022-07-01"
+ },
+ "PoiPoi": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "ipoopi",
+  "released": "2023-12-27"
+ },
+ "Pokemon_Gen1": {
+  "points": 42,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2019-01-01"
+ },
+ "Polar": {
+  "points": 35,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Protokol TnP, Krumplee, FlipLipp",
+  "released": "2020-05-17"
+ },
+ "Pop": {
+  "points": 5,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Pop",
+  "released": "2015-05-31"
+ },
+ "Pop2": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Pop",
+  "released": ""
+ },
+ "Pop3e": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Pop",
+  "released": ""
+ },
+ "Portico": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Twisted",
+  "released": "2025-07-22"
+ },
+ "Possession": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Krumplee",
+  "released": "2020-06-28"
+ },
+ "Pradera": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2023-01-29"
+ },
+ "Princess_of_Darkness": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Bibek",
+  "released": "2022-06-26"
+ },
+ "Protokol1": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Protokol",
+  "released": "2018-09-22"
+ },
+ "Protokol3": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Protokol",
+  "released": "2018-10-19"
+ },
+ "Protokol4": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Protokol",
+  "released": "2019-03-19"
+ },
+ "Pukki_World": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "mrs.",
+  "released": "2022-12-23"
+ },
+ "Pumpl": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "sasha34827 &amp; mateko",
+  "released": "2026-07-19"
+ },
+ "Pup1e": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Pup",
+  "released": ""
+ },
+ "Pup2": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Pup",
+  "released": ""
+ },
+ "Pup3": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Pup",
+  "released": ""
+ },
+ "Pup4": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Pup",
+  "released": ""
+ },
+ "Pup5e": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Pup",
+  "released": ""
+ },
+ "PupRed1e": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Pup &amp; RegFight",
+  "released": ""
+ },
+ "Purple": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mqx",
+  "released": "2025-11-09"
+ },
+ "PurpleStardust": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2019-08-19"
+ },
+ "Q-Adventure": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": "2018-05-12"
+ },
+ "Q-Aip-Gores": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores2": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores3": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores4": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores5": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores6": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores7": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Aip-Gores8": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Dummy-Drag1": {
+  "points": 4,
+  "stars": 1,
+  "category": "Mod",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Dummy-Drag2": {
+  "points": 4,
+  "stars": 1,
+  "category": "Mod",
+  "mapper": "QshaR &amp; FlipLipp",
+  "released": ""
+ },
+ "Q-Easy1": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "QshaR",
+  "released": "2017-07-02"
+ },
+ "Q-Easy2": {
+  "points": 4,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "QshaR",
+  "released": "2017-07-02"
+ },
+ "Q-Gores-Unhook": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Gores3": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Hook": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-1": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-2": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-3": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-4": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-5": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-KoG-Portal": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-Story": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "Q-move": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "QshaR",
+  "released": "2016-11-26"
+ },
+ "Q-tele": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "QshaR",
+  "released": "2016-10-30"
+ },
+ "QF-Competition": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "QF-Competition2": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "QF-Gores": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "QshaR",
+  "released": ""
+ },
+ "QM-Gores": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Morfeus &amp; QshaR",
+  "released": ""
+ },
+ "QuickOne": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "neverminze",
+  "released": "2020-05-05"
+ },
+ "R_dventure": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2019-10-19"
+ },
+ "Race_69": {
+  "points": 61,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2024-07-05"
+ },
+ "Radioactive": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "purrp T",
+  "released": "2024-12-25"
+ },
+ "RaiMee": {
+  "points": 24,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "RaiNy_meew",
+  "released": "2018-03-28"
+ },
+ "RaiNy10": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2018-06-18"
+ },
+ "RaiNy4Ink": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2017-06-23"
+ },
+ "RaiNyMore": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2017-09-02"
+ },
+ "RaiNyMore2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2019-05-29"
+ },
+ "RaiNyOD": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RaiNy",
+  "released": "2017-10-31"
+ },
+ "RainbowRoads": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "bzw",
+  "released": "2018-02-25"
+ },
+ "Ready4Delete": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Themix",
+  "released": "2019-04-06"
+ },
+ "Real4Taco": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RealTaco",
+  "released": "2024-02-21"
+ },
+ "Rectillinear": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "LingMu",
+  "released": "2026-07-12"
+ },
+ "RedCastle": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "mrs",
+  "released": "2021-04-09"
+ },
+ "RedCastle2": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "mrs",
+  "released": "2022-04-15"
+ },
+ "RedCastle3": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "mrs.",
+  "released": "2023-12-25"
+ },
+ "RedMoon": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-11-15"
+ },
+ "Rei4Omesurion": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Rei ayanami",
+  "released": "2021-12-19"
+ },
+ "Rei4Top": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Rei ayanami",
+  "released": "2022-11-27"
+ },
+ "Rei_N_Sd030": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Rei ayanami, sd030",
+  "released": "2022-04-19"
+ },
+ "Reja": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2022-11-26"
+ },
+ "Reja2": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2025-01-13"
+ },
+ "Reminder": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "elnoid",
+  "released": "2024-06-26"
+ },
+ "Revenge": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "FJP",
+  "released": "2025-02-04"
+ },
+ "Reverberate": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "mrs",
+  "released": "2022-03-18"
+ },
+ "Ring_of_Gores_III": {
+  "points": 73,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2021-05-01"
+ },
+ "RingofGores": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2017-12-23"
+ },
+ "RingofGores2": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2020-04-26"
+ },
+ "Rivers_of_Blood": {
+  "points": 51,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Bibek",
+  "released": "2025-09-01"
+ },
+ "Rosa": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2023-11-21"
+ },
+ "Rosa2": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2025-04-25"
+ },
+ "Route": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Route66",
+  "released": "2021-04-30"
+ },
+ "Rox": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2020-06-30"
+ },
+ "Rubnitos": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Rubnitos",
+  "released": "2017-02-15"
+ },
+ "Ruin": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2024-01-05"
+ },
+ "RuskiFlip": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "FlipLipp",
+  "released": "2019-04-19"
+ },
+ "RyuGore1": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ryuma",
+  "released": "2018-07-13"
+ },
+ "RyuGore2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Ryu",
+  "released": "2018-09-10"
+ },
+ "RyuGore3": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Ryuma",
+  "released": "2018-09-19"
+ },
+ "RyuGore4": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ryuma",
+  "released": "2018-10-03"
+ },
+ "RyuGore5": {
+  "points": 27,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Ryuma",
+  "released": "2019-01-28"
+ },
+ "Ryugores_6": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "MoonCake",
+  "released": "2024-04-10"
+ },
+ "SEMI": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Rei ayanami",
+  "released": "2021-12-30"
+ },
+ "SKILL": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Rei ayanami",
+  "released": "2022-06-28"
+ },
+ "SKILLS": {
+  "points": 18,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Rei ayanami",
+  "released": "2022-08-23"
+ },
+ "SPUDIMAN": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "ejjie &amp; Afterbjörn",
+  "released": "2024-12-13"
+ },
+ "SUPSANE": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-04-28"
+ },
+ "Sabled_Sun_1": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Gloomy_Wanderer",
+  "released": "2019-02-01"
+ },
+ "Sacrefount": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2024-04-25"
+ },
+ "SakuraWorld": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "alya?",
+  "released": "2026-09-13"
+ },
+ "Sanada": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Warto",
+  "released": "2023-03-14"
+ },
+ "Sanada2": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2025-05-18"
+ },
+ "Sandblast": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Shivi",
+  "released": "2024-08-23"
+ },
+ "Sandy_Cave": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "TUX",
+  "released": "2018-09-12"
+ },
+ "Sapphire": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Brokecdx_Miiep",
+  "released": "2018-12-15"
+ },
+ "Saturation": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "sync, Zonsa",
+  "released": "2020-09-19"
+ },
+ "Savannux": {
+  "points": 1,
+  "stars": 1,
+  "category": "Easy",
+  "mapper": "Tux",
+  "released": "2024-05-31"
+ },
+ "Scary": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "UnKnown",
+  "released": "2021-08-28"
+ },
+ "Screwdriver": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Protokol",
+  "released": "2019-07-05"
+ },
+ "Selva": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warto",
+  "released": "2023-01-13"
+ },
+ "SendanLife": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Afterbjörn",
+  "released": "2025-11-02"
+ },
+ "Serenitee": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "firewave",
+  "released": "2022-08-26"
+ },
+ "Shadow_Gores": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Deeper",
+  "released": ""
+ },
+ "Shadow_Spring": {
+  "points": 14,
+  "stars": 3,
+  "category": "Mod",
+  "mapper": "Amol",
+  "released": "2024-01-12"
+ },
+ "Shaft": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Minem",
+  "released": "2026-08-09"
+ },
+ "Shattered": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "humik",
+  "released": "2023-09-03"
+ },
+ "Sheldor": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Sheldon",
+  "released": ""
+ },
+ "Shorty": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "feat",
+  "released": "2022-07-03"
+ },
+ "Shyzo4Cecily": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Shyzo",
+  "released": "2017-05-03"
+ },
+ "Shyzo4Sasukey": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Shyzo",
+  "released": "2017-07-15"
+ },
+ "Shyzo4TS": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-09-01"
+ },
+ "Shyzo4TheCrew": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-07-27"
+ },
+ "ShyzoEZ-1": {
+  "points": 3,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Shyzo",
+  "released": "2017-07-08"
+ },
+ "Silently": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Rw",
+  "released": "2025-06-27"
+ },
+ "Silhouette": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "FJP",
+  "released": "2026-01-25"
+ },
+ "Simplistic": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2023-05-22"
+ },
+ "Simplistic2": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Thermiq",
+  "released": "2023-10-30"
+ },
+ "Simply_Nine": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Themix",
+  "released": ""
+ },
+ "Sky_Dungeon": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Rei ayanami",
+  "released": "2021-05-23"
+ },
+ "Skyground": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "firewave",
+  "released": "2021-09-24"
+ },
+ "SkyrelOne": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Skyrel",
+  "released": "2018-07-10"
+ },
+ "SkyrelTwo": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Skyrel",
+  "released": "2023-04-26"
+ },
+ "Slave_of_evil": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Bibek",
+  "released": "2022-07-19"
+ },
+ "SnailChan_Adventure": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Shiiir0, Xin",
+  "released": "2021-07-16"
+ },
+ "Snakepit": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2023-12-31"
+ },
+ "SnipeZonsa": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "SnipeZ² &amp; Zonsa",
+  "released": "2025-03-22"
+ },
+ "Snow_Sleep": {
+  "points": 35,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Mixi",
+  "released": "2023-09-01"
+ },
+ "SoFall": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Fallet, Soyler",
+  "released": "2020-10-06"
+ },
+ "Sol_obscurum": {
+  "points": 62,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Krumplee",
+  "released": "2026-08-02"
+ },
+ "SolarSystem": {
+  "points": 29,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "mind and tux",
+  "released": "2021-06-13"
+ },
+ "Sonder": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Money Boy",
+  "released": "2021-11-23"
+ },
+ "SouLy": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "ŁoʋƙieeŞ散",
+  "released": "2026-05-31"
+ },
+ "SpaceJump": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Vampyrali",
+  "released": "2017-11-12"
+ },
+ "SpacedOut": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Protokol,Feat",
+  "released": "2020-07-12"
+ },
+ "Spirits_Path": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "purrp T",
+  "released": "2023-10-07"
+ },
+ "Spitfire": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Beautemps, Omesurion",
+  "released": "2020-09-22"
+ },
+ "Springlobe": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Themix",
+  "released": ""
+ },
+ "Square_of_Gods": {
+  "points": 127,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2024-12-31"
+ },
+ "Square_of_Gores": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-02-09"
+ },
+ "Square_of_Gores_2": {
+  "points": 73,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-12-25"
+ },
+ "Square_of_Gores_3": {
+  "points": 115,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2023-05-01"
+ },
+ "Square_of_Gores_4": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "Mixi",
+  "released": "2024-07-28"
+ },
+ "Ssor4Kleas": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Ssor",
+  "released": "2023-07-28"
+ },
+ "Ssor4Minori": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Ssor",
+  "released": "2023-09-13"
+ },
+ "Ssor4Misse": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ssor",
+  "released": "2022-12-31"
+ },
+ "Ssor4Toji": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Ssor",
+  "released": "2024-07-08"
+ },
+ "Ssor4Valouuu": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Ssor",
+  "released": "2023-10-20"
+ },
+ "Ssor4badoumed": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Ssor",
+  "released": "2024-08-31"
+ },
+ "StargazerFullOne": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Mind",
+  "released": "2023-11-24"
+ },
+ "Stars": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2019-08-15"
+ },
+ "Stonesss": {
+  "points": 3,
+  "stars": 1,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-12-03"
+ },
+ "Stripes": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Genex",
+  "released": "2019-05-24"
+ },
+ "SummerNights": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2023-06-22"
+ },
+ "Summer_Splash": {
+  "points": 14,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "FJP",
+  "released": "2026-06-27"
+ },
+ "Suna_Tokei": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Zonsa_pandoru_j4m3s",
+  "released": "2019-10-19"
+ },
+ "Sunrise": {
+  "points": 23,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ωerιx",
+  "released": "2025-10-05"
+ },
+ "Sunshine": {
+  "points": 1,
+  "stars": 1,
+  "category": "Easy",
+  "mapper": "Afterbjörn",
+  "released": "2024-11-26"
+ },
+ "Sura": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Bibek",
+  "released": "2022-04-23"
+ },
+ "Synergy": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Krumplee, sync",
+  "released": "2020-05-29"
+ },
+ "Synth": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Windy",
+  "released": "2023-08-08"
+ },
+ "Syre": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Redemption",
+  "released": "2023-03-26"
+ },
+ "THEMINEMIX": {
+  "points": 80,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Minem &amp; Themix",
+  "released": "2026-06-14"
+ },
+ "TRILOG1A": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Lebrieg, Larlok",
+  "released": "2021-06-06"
+ },
+ "Tae": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Tae",
+  "released": "2023-03-19"
+ },
+ "Teelands": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrp T",
+  "released": "2020-07-03"
+ },
+ "Teelands_2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrp T",
+  "released": "2020-10-20"
+ },
+ "Teelands_3": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "purrp T",
+  "released": "2021-01-07"
+ },
+ "Teematic": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "purrpT",
+  "released": "2026-01-18"
+ },
+ "Tendril": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ipoopi",
+  "released": "2025-09-23"
+ },
+ "Tenzet": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "RealTaco",
+  "released": "2023-12-11"
+ },
+ "Ternion": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "ipoopi",
+  "released": "2023-11-03"
+ },
+ "Terran": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Windy",
+  "released": "2021-08-06"
+ },
+ "Terston1": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2017-07-23"
+ },
+ "Terston2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2017-09-30"
+ },
+ "Terston3": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2018-09-15"
+ },
+ "Terston4": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2021-01-26"
+ },
+ "Terston4Bzw": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2020-06-23"
+ },
+ "Terston4Ink": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2017-06-30"
+ },
+ "Terston4Tux": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2020-12-22"
+ },
+ "Terston5": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2021-08-06"
+ },
+ "Terston6": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Terston",
+  "released": "2021-08-17"
+ },
+ "Terston7": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2022-07-08"
+ },
+ "Terston8": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Terston",
+  "released": "2025-09-07"
+ },
+ "TerstonBzw": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Terston_bzw",
+  "released": "2019-12-19"
+ },
+ "TheCube": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "#16161D",
+  "released": "2020-12-11"
+ },
+ "TheForest": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Oмezurion",
+  "released": "2021-01-19"
+ },
+ "TheGauntlet": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Destin",
+  "released": "2019-06-03"
+ },
+ "TheGauntlet2": {
+  "points": 81,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Destin",
+  "released": "2022-12-26"
+ },
+ "The_Cube_2": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "#16161D",
+  "released": "2022-11-15"
+ },
+ "The_End": {
+  "points": 58,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Mixi",
+  "released": "2024-01-24"
+ },
+ "The_Ghost_Train": {
+  "points": 41,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Beautemps, Krumplee, BoWser, Brokecdx-, FlipLipp",
+  "released": "2022-10-29"
+ },
+ "The_Price": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Twisted",
+  "released": "2025-10-26"
+ },
+ "The_Pyra": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "RaiNy",
+  "released": "2017-01-25"
+ },
+ "The_Tower": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "FJP &amp; #16161D &amp; Krumplee &amp; Milaseq_ &amp; Afterbjörn &amp; TheSunSan &amp; ѕнαяу",
+  "released": "2026-03-15"
+ },
+ "Themed4RegKecske": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Themed",
+  "released": "2025-04-06"
+ },
+ "ThisIsSnipeZ": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "SnipeZ²",
+  "released": "2024-12-27"
+ },
+ "Through_the_Dust": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Ravie",
+  "released": "2018-11-11"
+ },
+ "TimeWarp": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "tux and Ravie",
+  "released": "2021-02-23"
+ },
+ "Together": {
+  "points": 22,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "FJP",
+  "released": "2025-07-13"
+ },
+ "TomTom": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Destom_Hesse",
+  "released": "2017-07-14"
+ },
+ "TomTom2": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Hesse",
+  "released": "2017-08-06"
+ },
+ "TomTom3": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Hesse_Destom",
+  "released": "2017-09-11"
+ },
+ "TomTom4": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Destin,Hesse",
+  "released": "2020-07-08"
+ },
+ "TomTom5": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Destin, Hesse",
+  "released": "2020-11-06"
+ },
+ "TomTom6": {
+  "points": 47,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Destin, Hesse",
+  "released": "2020-12-08"
+ },
+ "TomTom7": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Destin, Hesse",
+  "released": "2021-10-15"
+ },
+ "Tomahawk": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Neo",
+  "released": "2018-09-13"
+ },
+ "Toog": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "CeyCen",
+  "released": "2026-03-23"
+ },
+ "Tookies": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Tux",
+  "released": "2019-04-08"
+ },
+ "Topaz": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Crispy",
+  "released": "2022-12-26"
+ },
+ "Toxigon": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Krumplee",
+  "released": "2019-09-29"
+ },
+ "Toxina": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Warto",
+  "released": "2022-08-30"
+ },
+ "Toxina2": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Warto",
+  "released": "2024-07-21"
+ },
+ "TreeZ": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "SnipeZ²",
+  "released": "2024-12-31"
+ },
+ "Treesmas": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Canarda",
+  "released": "2025-05-09"
+ },
+ "Trooper": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Crispy",
+  "released": "2023-09-15"
+ },
+ "Tux4Rookies": {
+  "points": 5,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "Tux",
+  "released": "2018-05-31"
+ },
+ "Tuxcana": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "tux",
+  "released": "2021-11-12"
+ },
+ "Twike4Schizophrenia": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Twike",
+  "released": "2021-06-04"
+ },
+ "TwistmasAdventure": {
+  "points": 29,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "mind",
+  "released": "2024-12-20"
+ },
+ "Twofive": {
+  "points": 27,
+  "stars": 4,
+  "category": "Unknown",
+  "mapper": "Themix",
+  "released": "2023-11-11"
+ },
+ "Tyrone4Frozen": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Tyrone",
+  "released": "2021-12-31"
+ },
+ "UNDR": {
+  "points": 14,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "GloomyWanderer",
+  "released": "2018-09-22"
+ },
+ "USA": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Canarda",
+  "released": "2026-03-16"
+ },
+ "Uk4": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2020-10-16"
+ },
+ "UnKnown4Grass": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2020-03-05"
+ },
+ "UnKnown4vED": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "UnKnown",
+  "released": "2021-05-30"
+ },
+ "Unique": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "UnKnown",
+  "released": "2021-05-28"
+ },
+ "UnlockTeam": {
+  "points": 22,
+  "stars": 4,
+  "category": "Mod",
+  "mapper": "coany",
+  "released": "2021-05-16"
+ },
+ "Untilted": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Milaseq_",
+  "released": "2025-12-27"
+ },
+ "VampEz1": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "Vampyrali",
+  "released": "2017-08-26"
+ },
+ "Vampyrali2": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Vampyrali",
+  "released": ""
+ },
+ "Vampyrali3": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Vampyrali",
+  "released": ""
+ },
+ "Veltrix": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "johny tailor",
+  "released": "2026-02-09"
+ },
+ "Vigorously": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2020-12-29"
+ },
+ "Voodi": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "sasha34827",
+  "released": "2025-08-24"
+ },
+ "WaLu": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "WaKarnage, Lucas",
+  "released": "2021-11-16"
+ },
+ "WarmUp_by_Shyzo": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shyzo",
+  "released": "2018-06-03"
+ },
+ "Warto4Vappy": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Warto",
+  "released": "2023-06-26"
+ },
+ "Waschlappen": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Waschlappen",
+  "released": ""
+ },
+ "Waterfall": {
+  "points": 24,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Beautemps",
+  "released": "2020-08-15"
+ },
+ "Wats4Forbidden": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Wats",
+  "released": "2018-07-20"
+ },
+ "WhatRemains": {
+  "points": 38,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "MoonCake",
+  "released": "2019-05-29"
+ },
+ "Whispering": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "MoonCake",
+  "released": "2019-08-06"
+ },
+ "White": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "BoWser",
+  "released": "2022-08-16"
+ },
+ "WhiteMoon": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlipLipp",
+  "released": "2018-11-19"
+ },
+ "Whitedom": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "RealTaco",
+  "released": "2023-08-25"
+ },
+ "Wicked": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Jore",
+  "released": "2022-05-24"
+ },
+ "Wilderness": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "wer1xx &amp; sasha34827",
+  "released": "2025-08-17"
+ },
+ "Wind_Vane": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "mind",
+  "released": "2024-10-18"
+ },
+ "Winter_rain": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "MoonCake",
+  "released": "2022-04-05"
+ },
+ "Winter_rain_twisted": {
+  "points": 0,
+  "stars": 3,
+  "category": "Unknown",
+  "mapper": "mind",
+  "released": "2024-12-07"
+ },
+ "Wintux": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Tux",
+  "released": "2019-01-28"
+ },
+ "Wonderfrost": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Shivi",
+  "released": "2024-05-28"
+ },
+ "Xerceal": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Themix",
+  "released": "2025-03-17"
+ },
+ "XmasAdventure": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Hidden",
+  "released": "2017-12-27"
+ },
+ "XmasMove": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "tux",
+  "released": "2020-03-02"
+ },
+ "Xoxo4Hendrix": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Xoxo",
+  "released": "2021-01-05"
+ },
+ "Xyz_gores": {
+  "points": 8,
+  "stars": 2,
+  "category": "Mod",
+  "mapper": "Themix",
+  "released": ""
+ },
+ "YellowMoon": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "FlipLipp",
+  "released": "2018-12-23"
+ },
+ "Yo1": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo10": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo11": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo12": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Yo",
+  "released": "2017-09-01"
+ },
+ "Yo13": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": "2017-08-04"
+ },
+ "Yo2": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo3": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo4": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo4Fast": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Yo",
+  "released": "2016-11-10"
+ },
+ "Yo4Lama": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo4Lama2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo4WojMen": {
+  "points": 6,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": "2017-11-19"
+ },
+ "Yo5": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo6": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo7": {
+  "points": 15,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo8": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "Yo9": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": ""
+ },
+ "YoAirm4x": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo &amp; AIRM4X",
+  "released": ""
+ },
+ "YoCkiS5": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Yo",
+  "released": "2016-12-17"
+ },
+ "YoCkis4": {
+  "points": 24,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo &amp; CkiS",
+  "released": ""
+ },
+ "YoJustTeE": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Yo &amp; JustTeE",
+  "released": ""
+ },
+ "YoJustTee2": {
+  "points": 20,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yo",
+  "released": "2017-03-01"
+ },
+ "Yoc4crunchY": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Yoc",
+  "released": "2020-08-22"
+ },
+ "Yoc4mpampas": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Yoc",
+  "released": "2021-10-22"
+ },
+ "Yoin4Crispy": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Yoin",
+  "released": "2022-05-27"
+ },
+ "Yoin4Tester": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Yoin",
+  "released": "2024-05-21"
+ },
+ "Yuslo4Nizzza": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Yuslo",
+  "released": "2017-02-24"
+ },
+ "Yuslo4Shoyyy": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Yuslo",
+  "released": "2017-03-24"
+ },
+ "YusloCkis1": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Yuslo_CkiS",
+  "released": "2017-07-07"
+ },
+ "ZTOY": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Tyrone",
+  "released": "2022-05-17"
+ },
+ "ZZZ": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2020-07-05"
+ },
+ "Zen": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "FJP",
+  "released": "2026-03-16"
+ },
+ "Zentarus": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "ρнιʐyxxx",
+  "released": "2025-11-18"
+ },
+ "ZeroKani4JuKKi": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Krumplee &amp; TheSunSan",
+  "released": "2025-10-12"
+ },
+ "ZeroSeven": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "KOF",
+  "released": "2022-04-29"
+ },
+ "Zerox4Busted": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Zerox",
+  "released": "2018-03-19"
+ },
+ "Zerox4Nox": {
+  "points": 6,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Zerox",
+  "released": ""
+ },
+ "Zonsa4Luckuy21": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2020-12-05"
+ },
+ "Zonsa4Mixi": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Zonsa",
+  "released": "2023-01-06"
+ },
+ "Zonsa4Tyrone": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2021-11-30"
+ },
+ "Zosna": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2021-09-14"
+ },
+ "Zubr": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2021-07-06"
+ },
+ "afOatmeal": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Komyu",
+  "released": "2023-10-17"
+ },
+ "afkomyu": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Komyu",
+  "released": "2023-02-02"
+ },
+ "asnoZ": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2022-12-26"
+ },
+ "azra": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Arylz",
+  "released": "2026-03-03"
+ },
+ "bPls": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Route66",
+  "released": "2021-07-13"
+ },
+ "bazawa": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2020-04-07"
+ },
+ "blim4zale": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "blim",
+  "released": "2020-11-10"
+ },
+ "blim_Gores": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "blim",
+  "released": "2020-09-15"
+ },
+ "bloodstone": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "GELO",
+  "released": "2021-01-12"
+ },
+ "blue_space": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2020-05-02"
+ },
+ "bubbles": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "cagent, Kingston",
+  "released": "2021-01-29"
+ },
+ "bzolow": {
+  "points": 44,
+  "stars": 5,
+  "category": "Unknown",
+  "mapper": "bzw",
+  "released": "2022-07-12"
+ },
+ "bzonsw": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2020-04-18"
+ },
+ "bzw1": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "bzw",
+  "released": "2018-02-04"
+ },
+ "bzw2": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2018-06-29"
+ },
+ "bzw3": {
+  "points": 35,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2018-04-14"
+ },
+ "bzw4": {
+  "points": 41,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2019-01-08"
+ },
+ "bzw4Treefly": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2018-10-07"
+ },
+ "bzw4chile": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "bzw",
+  "released": "2019-05-27"
+ },
+ "bzw4miep": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "bzw",
+  "released": "2018-03-27"
+ },
+ "bzw4tux": {
+  "points": 8,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "bzw",
+  "released": "2019-12-22"
+ },
+ "bzw5": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2019-03-27"
+ },
+ "bzw7": {
+  "points": 54,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2019-05-31"
+ },
+ "bzw8": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2022-07-10"
+ },
+ "cake_reef": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "CAKExSNIFFERx42",
+  "released": "2024-08-17"
+ },
+ "cake_strawberry": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "CAKExSNIFFERx42",
+  "released": "2024-12-28"
+ },
+ "cake_winter": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "CAKExSNIFFERx42",
+  "released": "2024-07-03"
+ },
+ "calm": {
+  "points": 47,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2019-08-02"
+ },
+ "capon": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "夜",
+  "released": "2024-07-13"
+ },
+ "cave": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2018-11-21"
+ },
+ "corgores2": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "ImCorneum",
+  "released": "2019-11-18"
+ },
+ "cursed": {
+  "points": 63,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Krumplee, bzw",
+  "released": "2021-01-06"
+ },
+ "cyber": {
+  "points": 41,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "FlippLip, Beautemps",
+  "released": "2023-11-27"
+ },
+ "dabushes": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Exless",
+  "released": "2021-06-29"
+ },
+ "dandadan": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "ejjie",
+  "released": "2025-01-20"
+ },
+ "dark": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "cagent",
+  "released": "2021-05-11"
+ },
+ "darkforest": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mqx",
+  "released": "2023-05-10"
+ },
+ "ddrace": {
+  "points": 54,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "Themix",
+  "released": "2025-06-18"
+ },
+ "dindila": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2021-01-04"
+ },
+ "dionle": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "elnoid",
+  "released": "2024-12-03"
+ },
+ "dragonexe": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Zero",
+  "released": "2021-04-16"
+ },
+ "elnoid4FJP": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "elnoid",
+  "released": "2024-06-10"
+ },
+ "eptr": {
+  "points": 78,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Zonsa",
+  "released": "2026-03-23"
+ },
+ "feat4flip": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "feat",
+  "released": "2019-12-12"
+ },
+ "feat4juicy": {
+  "points": 34,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "feat",
+  "released": "2020-01-04"
+ },
+ "feat4neo": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "feat",
+  "released": "2020-07-17"
+ },
+ "featality": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "feat",
+  "released": "2018-10-20"
+ },
+ "featuristic": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "feat",
+  "released": "2018-08-30"
+ },
+ "fik4Enyltyn": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": "2019-04-26"
+ },
+ "fik4Isi": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "fikmesan",
+  "released": "2018-06-29"
+ },
+ "fik4Kicker": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": "2018-06-09"
+ },
+ "fik4LemonTee": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "fikmesan",
+  "released": "2020-11-03"
+ },
+ "fik4SubLime": {
+  "points": 4,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": "2021-03-22"
+ },
+ "fik4bzw": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "fikmesan",
+  "released": "2018-10-29"
+ },
+ "fik4imp": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": "2019-04-10"
+ },
+ "fik4snail": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": ""
+ },
+ "fikbzw": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "fikmesan_bzw",
+  "released": "2019-05-16"
+ },
+ "fikmesan": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "fikmesan",
+  "released": ""
+ },
+ "fikvie": {
+  "points": 12,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Ravie and fikmesan",
+  "released": "2018-10-28"
+ },
+ "fjpflower": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Mixi",
+  "released": "2026-06-07"
+ },
+ "fokcores": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "fokkonaut, Cor",
+  "released": "2020-05-22"
+ },
+ "fokkonaut": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "fokkonaut",
+  "released": "2017-02-20"
+ },
+ "ghosttown": {
+  "points": 36,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "se",
+  "released": "2020-12-01"
+ },
+ "goatschool": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "purrpT",
+  "released": "2023-06-19"
+ },
+ "goryx": {
+  "points": 29,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2020-03-11"
+ },
+ "hanh_phuc": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "Syltoox",
+  "released": "2020-06-03"
+ },
+ "himinn": {
+  "points": 20,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "New Hero",
+  "released": "2024-09-08"
+ },
+ "humik": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "humik",
+  "released": "2023-09-20"
+ },
+ "iCe-Ice": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Deploid, se",
+  "released": "2021-10-10"
+ },
+ "iWebCkis1": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "iWeb_CkiS",
+  "released": "2019-09-04"
+ },
+ "i_need_mushroom_girl": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "ZXC¿Girl?",
+  "released": "2025-10-12"
+ },
+ "ikiedulover": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Colo-Colo",
+  "released": "2024-03-27"
+ },
+ "ilyzaelle": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Colo-Colo",
+  "released": "2023-07-12"
+ },
+ "impton": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "Gotie, KOF",
+  "released": "2022-02-15"
+ },
+ "infazci": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "rawensawa",
+  "released": "2023-10-24"
+ },
+ "insomyu": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "Komyu",
+  "released": "2024-09-06"
+ },
+ "justfeat": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "feat",
+  "released": "2021-06-25"
+ },
+ "kakdela": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "ejjie",
+  "released": "2025-09-29"
+ },
+ "komyuSRT": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Komyu",
+  "released": "2023-07-21"
+ },
+ "konwic4protokol": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "konwic",
+  "released": "2020-08-29"
+ },
+ "legendary": {
+  "points": 47,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "bzw",
+  "released": "2019-07-01"
+ },
+ "light": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "cagent",
+  "released": "2021-02-16"
+ },
+ "lovender": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "purrp T",
+  "released": "2021-08-24"
+ },
+ "meew1": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "meew",
+  "released": "2017-03-08"
+ },
+ "meew2": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "meew",
+  "released": "2017-11-27"
+ },
+ "meew3": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "meew",
+  "released": "2018-01-10"
+ },
+ "meew4": {
+  "points": 22,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "meew",
+  "released": "2018-04-03"
+ },
+ "melange": {
+  "points": 3,
+  "stars": 1,
+  "category": "Unknown",
+  "mapper": "Gotie",
+  "released": "2023-09-17"
+ },
+ "melisawa": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "melisawa",
+  "released": "2025-01-27"
+ },
+ "mellow": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Uber",
+  "released": "2021-06-08"
+ },
+ "midnight": {
+  "points": 27,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "cagent",
+  "released": "2021-02-05"
+ },
+ "mrs_motivation": {
+  "points": 32,
+  "stars": 5,
+  "category": "Mod",
+  "mapper": "mrs.",
+  "released": "2023-02-11"
+ },
+ "nevergores3": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "neverminze",
+  "released": "2021-03-30"
+ },
+ "nevergores4": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "neverminze",
+  "released": "2021-04-06"
+ },
+ "oen1": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Neo",
+  "released": "2019-05-04"
+ },
+ "oen2": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Neo",
+  "released": "2019-12-08"
+ },
+ "ozurdilerim_": {
+  "points": 44,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "ozurdilerim",
+  "released": "2024-02-09"
+ },
+ "planetse": {
+  "points": 40,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "se",
+  "released": "2022-11-30"
+ },
+ "pressure": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "neverminze",
+  "released": "2020-06-05"
+ },
+ "promyu": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Komyu",
+  "released": "2024-06-05"
+ },
+ "protokolbzw": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Protokol, bzw",
+  "released": "2022-12-02"
+ },
+ "purple_space": {
+  "points": 24,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "purrpT",
+  "released": "2020-01-02"
+ },
+ "rawensawa": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "rawensawa",
+  "released": "2024-01-20"
+ },
+ "rawensawa4chang": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "rawensawa",
+  "released": "2024-06-18"
+ },
+ "rawensawa4wade": {
+  "points": 30,
+  "stars": 1,
+  "category": "Insane",
+  "mapper": "rawensawa",
+  "released": "2024-06-24"
+ },
+ "red": {
+  "points": 6,
+  "stars": 2,
+  "category": "Unknown",
+  "mapper": "Zonsa",
+  "released": "2023-09-06"
+ },
+ "rey4benz": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ReyDeuce",
+  "released": "2024-10-06"
+ },
+ "rey4rey": {
+  "points": 42,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "ReyDeuce",
+  "released": "2024-08-25"
+ },
+ "rubble": {
+  "points": 6,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "FJP",
+  "released": "2023-12-26"
+ },
+ "sakura": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "GELO",
+  "released": "2021-05-09"
+ },
+ "samo-FWYS1e": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "samo",
+  "released": ""
+ },
+ "samo-FWYS2e": {
+  "points": 16,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "samo",
+  "released": ""
+ },
+ "sd004_NIghtLIfe": {
+  "points": 12,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "sd030",
+  "released": "2022-01-18"
+ },
+ "sd005": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "sd030",
+  "released": "2021-12-23"
+ },
+ "sharkexe": {
+  "points": 18,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Zero",
+  "released": "2021-01-16"
+ },
+ "shiro1": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Shiro",
+  "released": "2021-02-26"
+ },
+ "shiro2": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Shiro",
+  "released": "2021-06-15"
+ },
+ "shishi4minyxe": {
+  "points": 21,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Shishigami",
+  "released": "2023-08-20"
+ },
+ "sionstail": {
+  "points": 32,
+  "stars": 2,
+  "category": "Insane",
+  "mapper": "Shinzō",
+  "released": "2025-06-27"
+ },
+ "skypeks4pumpkin": {
+  "points": 48,
+  "stars": 1,
+  "category": "Extreme",
+  "mapper": "skypeks",
+  "released": "2026-07-26"
+ },
+ "snikichu": {
+  "points": 91,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "ejjie",
+  "released": "2025-10-05"
+ },
+ "splith": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "konwic",
+  "released": "2020-12-15"
+ },
+ "subdue": {
+  "points": 4,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "FJP",
+  "released": "2024-12-29"
+ },
+ "themixi": {
+  "points": 47,
+  "stars": 3,
+  "category": "Insane",
+  "mapper": "Themix &amp; Mixi",
+  "released": "2025-05-09"
+ },
+ "themixi_2": {
+  "points": 80,
+  "stars": 2,
+  "category": "Extreme",
+  "mapper": "Themix &amp; Mixi",
+  "released": "2025-08-24"
+ },
+ "tyrone4fretardo": {
+  "points": 11,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Tyrone",
+  "released": "2021-12-14"
+ },
+ "uk1": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "UnKown",
+  "released": "2019-05-30"
+ },
+ "uk2": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2019-09-08"
+ },
+ "uk3": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "UnKnown",
+  "released": "2020-01-12"
+ },
+ "urskog": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "New_Hero",
+  "released": "2023-05-13"
+ },
+ "xRyperion": {
+  "points": 8,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "xRyperion_",
+  "released": ""
+ },
+ "xRyperionGecko": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "xRyperion_ &amp; Gecko &amp; FlipLipp",
+  "released": ""
+ },
+ "za1e": {
+  "points": 16,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "zale",
+  "released": "2020-03-14"
+ },
+ "zale4blim": {
+  "points": 25,
+  "stars": 3,
+  "category": "Hard",
+  "mapper": "zale",
+  "released": "2020-07-28"
+ },
+ "zale4coany": {
+  "points": 14,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "Zale",
+  "released": "2023-11-17"
+ },
+ "ziinox": {
+  "points": 101,
+  "stars": 3,
+  "category": "Extreme",
+  "mapper": "Zonsa",
+  "released": "2023-11-15"
+ },
+ "zonsa_zonsa_zonsa": {
+  "points": 13,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Zonsa",
+  "released": "2019-07-28"
+ },
+ "zzzz": {
+  "points": 42,
+  "stars": 2,
+  "category": "Hard",
+  "mapper": "Zonsa",
+  "released": "2023-05-16"
+ }
+}
