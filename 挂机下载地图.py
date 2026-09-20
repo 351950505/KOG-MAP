@@ -375,11 +375,12 @@ def refresh_all_votes_system():
                             f' exec votes/{cat.lower()}.cfg"\n'
                         )
 
-                f.write('add_vote " " "info"\n')
+                # 分隔行必须用 20 个减号：纯空格标题的 add_vote 会被服务器拒绝
+                f.write('add_vote "--------------------" "info"\n')
                 f.write(
                     f'add_vote "🎲 随机一张 {current_cat} 地图" "random_map"\n'
                 )
-                f.write('add_vote " " "info"\n\n')
+                f.write('add_vote "--------------------" "info"\n\n')
 
                 f.write(
                     f"# -------------- 【{current_cat} 地图列表】"
