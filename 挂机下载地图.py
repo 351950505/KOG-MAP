@@ -26,6 +26,40 @@ CDN_TEMPLATES = [
     "https://maps.ddnet.org/compilations/maps/{name}.map",
 ]
 
+# ===== 评分数据（kog.tw 官网地图库，points=分数；与线上 map_downloader.py 同逻辑）=====
+RATINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "map_ratings.json")
+RATINGS_CACHE = None
+
+
+def load_ratings():
+    global RATINGS_CACHE
+    if RATINGS_CACHE is not None:
+        return RATINGS_CACHE
+    try:
+        with open(RATINGS_FILE, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        RATINGS_CACHE = {str(k).lower(): v for k, v in raw.items()}
+    except Exception:
+        RATINGS_CACHE = {}
+    return RATINGS_CACHE
+
+
+def get_map_rating(map_name):
+    """返回 (points, released) 或 None；points 即官网 "X points" 分数"""
+    r = load_ratings().get(map_name.lower())
+    if not r:
+        return None
+    return (r.get("points"), r.get("released") or "")
+
+
+def format_vote_title(map_name):
+    """投票行标题：有官网评分 → 图名 | N分 | 发布日期；无评分 → 固定占位 ★★★✰✰ + 今天"""
+    rating = get_map_rating(map_name)
+    if rating:
+        pts, rel = rating
+        return f"{map_name} | {int(pts)}分 | {rel}"
+    return f"{map_name} | ★★★✰✰ | {time.strftime('%Y-%m-%d')}"
+
 CATEGORY_DISPLAY_NAMES = {
     "Easy": "Eᴀsʏ",
     "Main": "Mᴀɪɴ",
@@ -306,6 +340,13 @@ def refresh_all_votes_system():
                     for line in f:
                         l = line.strip()
                         if l.startswith("add_vote") and "change_map " in l:
+                            # 有官网评分的存量行：刷新时自动重写标题（图名 | N分 | 发布日期）
+                            m_name = l.split("change_map ")[-1].replace('"', "").strip()
+                            if load_ratings().get(m_name.lower()):
+                                l = (
+                                    f'add_vote "{format_vote_title(m_name)}"'
+                                    f' "change_map {m_name}"'
+                                )
                             category_maps[cat_name].append(l)
             except Exception:
                 pass
@@ -404,10 +445,7 @@ def refresh_all_votes_system():
 def append_map_and_refresh_votes(cat, mname):
     os.makedirs(VOTES_DIR, exist_ok=True)
     target_cfg = os.path.join(VOTES_DIR, f"{cat.lower()}.cfg")
-    current_date = time.strftime("%Y-%m-%d")
-    vote_line = (
-        f'add_vote "{mname} | ★★★✰✰ | {current_date}" "change_map {mname}"\n'
-    )
+    vote_line = f'add_vote "{format_vote_title(mname)}" "change_map {mname}"\n'
 
     try:
         with open(target_cfg, "a", encoding="utf-8") as wf:
