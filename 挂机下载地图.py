@@ -258,6 +258,17 @@ def download_map_strictly(map_name, map_sha):
     return None, "None"
 
 
+def vote_sort_key(line):
+    """投票列表排序：有日期的按日期倒序（新的在上，同日期按图名）；
+    无日期的 Official 组沉底（组内按图名）。与线上 map_downloader.py 同逻辑。"""
+    target = line.split("change_map ")[-1].replace('"', "").strip().lower()
+    m = re.search(r"\|\s*(\d{4})-(\d{1,2})-(\d{1,2})", line)
+    if m:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        return (0, -y, -mo, -d, target)
+    return (1, target)
+
+
 def refresh_all_votes_system():
     """扫描 votes/ 目录下所有分类，精确重算实际数量并刷新头部导航与标题"""
     if not os.path.exists(VOTES_DIR):
@@ -311,9 +322,7 @@ def refresh_all_votes_system():
                 seen.add(m_target)
                 unique_maps.append(m)
 
-        unique_maps.sort(
-            key=lambda x: x.split("change_map ")[-1].replace('"', "").lower()
-        )
+        unique_maps.sort(key=vote_sort_key)
         category_maps[cat] = unique_maps
         real_counts[cat] = len(unique_maps)
 
