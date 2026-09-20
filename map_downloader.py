@@ -2,6 +2,7 @@
 import json
 import os
 import re
+import shutil
 import ssl
 import subprocess
 import sys
@@ -14,20 +15,32 @@ from collections import defaultdict
 # 强制 UTF-8 编码
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# 生产环境路径
+# ================= 生产环境绝对路径 =================
 BASE_DIR = "/opt/ddnet" if os.path.exists("/opt/ddnet") else os.path.dirname(os.path.abspath(__file__))
 OUTPUT_MAPS_DIR = os.path.join(BASE_DIR, "maps")
 VOTES_DIR = os.path.join(BASE_DIR, "votes")
 ROOT_VOTES_CFG = os.path.join(BASE_DIR, "votes.cfg")
-FIFO_PATH = os.path.join(BASE_DIR, "server.fifo")
 MASTER_URL = "https://master1.ddnet.org/ddnet/15/servers.json"
 
+# ===== 下载失败冷却（防 CDN 404 死循环刷日志；冷却到期自动复查，防止漏图）=====
+FAIL_STATE_FILE = os.path.join(BASE_DIR, "map_download_failures.json")
+FAIL_MAX_ATTEMPTS = 5      # 连续失败 N 次后进入冷却
+FAIL_COOLDOWN_HOURS = 6    # 冷却 N 小时后自动重新复查
+
+# ===== Git 自动发布（新图 + 分类投票文件同步到 /opt/KOG-MAP 仓库并推送 GitHub）=====
+GIT_REPO_DIR = "/opt/KOG-MAP"
+GIT_ENABLED = os.path.isdir(os.path.join(GIT_REPO_DIR, ".git"))
+GIT_AUTHOR_NAME = "me 2"
+GIT_AUTHOR_EMAIL = "58302265+351950505@users.noreply.github.com"
+
+# 备选扫描路径 (包含当前目录与本地 Git 仓库)
 SCAN_DIRS = [
     OUTPUT_MAPS_DIR,
     "/opt/KOG-MAP/maps",
     os.path.expanduser("~/.local/share/ddnet/downloadedmaps")
 ]
 
+# 官方真实 CDN 与备用镜像
 CDN_TEMPLATES = [
     "https://maps.kog.tw/teeworlds/maps/{name}_{sha}.map",
     "https://maps.ddnet.org/compilations/maps/{name}_{sha}.map",
@@ -49,9 +62,6 @@ CATEGORY_DISPLAY_NAMES = {
 ssl_ctx = ssl.create_default_context()
 ssl_ctx.check_hostname = False
 ssl_ctx.verify_mode = ssl.CERT_NONE
-
-# 记录当前通知绑定的日期
-last_checked_date = ""
 
 def is_valid_teeworlds_binary(data_bytes):
     """严格校验 Teeworlds/DDNet 原生二进制魔数 (DATA 或 ATAD)"""
@@ -94,7 +104,7 @@ def clean_existing_corrupted_maps():
         print(" 所有假文件已清理完毕！\n" + "=" * 70)
 
 def is_official_formal_kog_server(server_name):
-    """【白名单过滤】屏蔽一切 TEST / BETA 沙盒房间"""
+    """【白名单过滤】屏蔽所有 TEST / BETA 沙盒房间，只收割正式房间"""
     s_upper = server_name.upper()
     for blackword in ["TEST", "BETA", "DEV", "EVALUATE", "SUBMISSION"]:
         if blackword in s_upper:
@@ -107,6 +117,7 @@ def is_official_formal_kog_server(server_name):
     return any(cat in s_upper for cat in formal_categories)
 
 def extract_category_from_server(server_name):
+    """从正式服房间名解析分类"""
     m = re.search(r'-\s*(Easy|Main|Hard|Solo|Insane|Extreme|Mods)\b', server_name, re.IGNORECASE)
     if m:
         return m.group(1).capitalize()
@@ -191,6 +202,121 @@ def download_map_strictly(map_name, map_sha):
 
     return None, "None"
 
+def get_map_rating(map_name):
+    """【评分草案 · 暂未启用 —— 不改变现有任何行为】
+
+    存量 votes 里每张图都有真实星级（如 ★★✰✰✰），但新图目前没有评分数据源。
+    后续接入时本函数应返回 (stars_str, score_int) 或 None，
+    format_vote_title() 会自动使用其结果，届时无需再改投票逻辑。
+
+    TODO(评分草案): 数据源待定，可选：
+      1) KoG 官方 / DDNet ratings 接口
+      2) 人工维护 ratings.json（启动时加载，键为地图名小写）
+    """
+    return None
+
+def format_vote_title(map_name):
+    """生成投票行标题；评分草案未启用时保持固定占位 ★★★✰✰"""
+    rating = get_map_rating(map_name)
+    stars = rating[0] if rating else "★★★✰✰"
+    return f"{map_name} | {stars} | {time.strftime('%Y-%m-%d')}"
+
+def load_fail_state():
+    """读取下载失败状态（JSON 持久化，服务重启不丢计数）"""
+    try:
+        with open(FAIL_STATE_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+def save_fail_state(state):
+    try:
+        with open(FAIL_STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=1)
+    except Exception:
+        pass
+
+def fail_in_cooldown(map_name, state):
+    """失败次数达到上限且仍在冷却期内 → True；冷却期满自动清零进入复查"""
+    st = state.get(map_name.lower())
+    if not st:
+        return False
+    if st.get("count", 0) >= FAIL_MAX_ATTEMPTS:
+        if time.time() - st.get("last", 0) < FAIL_COOLDOWN_HOURS * 3600:
+            return True
+        st["count"] = 0  # 冷却期满，重新复查
+    return False
+
+def fail_record(map_name, state):
+    st = state.setdefault(map_name.lower(), {"count": 0, "last": 0})
+    st["count"] += 1
+    st["last"] = time.time()
+    save_fail_state(state)
+    return st["count"]
+
+def fail_clear(map_name, state):
+    if state.pop(map_name.lower(), None) is not None:
+        save_fail_state(state)
+
+def git_publish_map_update(map_name, category):
+    """新图 + 全部分类 votes 同步到 /opt/KOG-MAP 仓库，commit 并 push 到 GitHub。
+
+    任何失败只打日志，绝不影响收割主流程；
+    push 失败的提交留在本地仓库，凭据就绪后随下次发布一并补推。
+    """
+    if not GIT_ENABLED:
+        print("    [git] 未找到 /opt/KOG-MAP 仓库，跳过发布")
+        return False
+    try:
+        repo_maps = os.path.join(GIT_REPO_DIR, "maps")
+        repo_votes = os.path.join(GIT_REPO_DIR, "votes")
+        os.makedirs(repo_maps, exist_ok=True)
+        os.makedirs(repo_votes, exist_ok=True)
+
+        # 1) 新地图 → 仓库 maps/
+        shutil.copy2(os.path.join(OUTPUT_MAPS_DIR, f"{map_name}.map"),
+                     os.path.join(repo_maps, f"{map_name}.map"))
+
+        # 2) 分类投票文件 + 根 votes.cfg（refresh 已全量重写，整目录覆盖即可）
+        for fn in os.listdir(VOTES_DIR):
+            if fn.endswith(".cfg"):
+                shutil.copy2(os.path.join(VOTES_DIR, fn), os.path.join(repo_votes, fn))
+        shutil.copy2(ROOT_VOTES_CFG, os.path.join(GIT_REPO_DIR, "votes.cfg"))
+
+        # 3) 提交并推送（仅限定 maps/votes 路径，避免带入仓库内无关文件）
+        env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
+        msg = f"auto: add map [{category}] {map_name} ({time.strftime('%Y-%m-%d %H:%M')})"
+
+        subprocess.run(["git", "-C", GIT_REPO_DIR, "add", "-A", "--",
+                        "maps", "votes", "votes.cfg"],
+                       capture_output=True, timeout=60, env=env)
+
+        commit = subprocess.run(
+            ["git", "-C", GIT_REPO_DIR, "-c", f"user.name={GIT_AUTHOR_NAME}",
+             "-c", f"user.email={GIT_AUTHOR_EMAIL}", "commit", "-m", msg],
+            capture_output=True, timeout=60, env=env)
+
+        if commit.returncode != 0:
+            out = ((commit.stdout or b"") + (commit.stderr or b"")).decode("utf-8", "replace")
+            if "nothing to commit" in out:
+                print("    [git] 无变更可提交")
+                return True
+            print(f"    [git] commit 失败: {out.strip()[:200]}")
+            return False
+
+        push = subprocess.run(["git", "-C", GIT_REPO_DIR, "push", "origin", "HEAD"],
+                              capture_output=True, timeout=120, env=env)
+        if push.returncode == 0:
+            print(f"    [git] 已提交并推送 GitHub: {msg}")
+            return True
+        print(f"    [git] push 失败(提交已留在本地，凭据就绪后自动补推): "
+              f"{(push.stderr or b'').decode('utf-8', 'replace').strip()[:200]}")
+        return False
+    except Exception as e:
+        print(f"    [git] 发布异常: {type(e).__name__}: {e}")
+        return False
+
 def refresh_all_votes_system():
     """扫描并更新 votes 目录下各分类的导航栏数量统计"""
     if not os.path.exists(VOTES_DIR):
@@ -262,9 +388,10 @@ def refresh_all_votes_system():
                     else:
                         f.write(f'add_vote "☐ {styled} Mᴀᴘs ({count})" "clear_votes; exec votes/{cat.lower()}.cfg"\n')
 
-                f.write('add_vote " " "info"\n')
+                # 分隔行必须用 20 个减号：纯空格标题的 add_vote 会被服务器拒绝（见交接文档坑 #8）
+                f.write('add_vote "--------------------" "info"\n')
                 f.write(f'add_vote "🎲 随机一张 {current_cat} 地图" "random_map"\n')
-                f.write('add_vote " " "info"\n\n')
+                f.write('add_vote "--------------------" "info"\n\n')
 
                 f.write(f"# -------------- 【{current_cat} 地图列表】 --------------\n")
                 for m_line in category_maps[current_cat]:
@@ -281,70 +408,10 @@ def refresh_all_votes_system():
     except Exception:
         pass
 
-def send_to_server_fifo(cmd_text):
-    """向服务端 FIFO 管道写入指令"""
-    if os.path.exists(FIFO_PATH):
-        try:
-            with open(FIFO_PATH, "w", encoding="utf-8") as f:
-                f.write(cmd_text + "\n")
-        except Exception:
-            pass
-
-def sync_today_new_maps_motd():
-    """【进服弹窗核心】只在当天有新图时设置进服提示，隔天自动清空静音"""
-    global last_checked_date
-    today_str = time.strftime("%Y-%m-%d")
-    today_maps = []
-
-    # 扫描 votes/ 目录下所有记录今天日期的地图
-    if os.path.exists(VOTES_DIR):
-        for fname in os.listdir(VOTES_DIR):
-            if fname.endswith(".cfg") and fname != "all.cfg":
-                cat = fname.replace(".cfg", "").capitalize()
-                fp = os.path.join(VOTES_DIR, fname)
-                try:
-                    with open(fp, "r", encoding="utf-8", errors="ignore") as f:
-                        for line in f:
-                            if today_str in line and "change_map " in line:
-                                mname = line.split("change_map ")[-1].replace('"', '').strip()
-                                today_maps.append((mname, cat))
-                except Exception:
-                    pass
-
-    # 如果今天有新入库的地图，配置进服弹窗
-    if today_maps:
-        # 去重
-        seen = set()
-        unique_today = []
-        for m, c in today_maps:
-            if m not in seen:
-                seen.add(m)
-                unique_today.append((m, c))
-
-        map_lines = "\\n".join([f"• {m} ({c})" for m, c in unique_today[:6]])
-        if len(unique_today) > 6:
-            map_lines += f"\\n... 等共 {len(unique_today)} 张"
-
-        motd_text = (
-            f"==============================\\n"
-            f"📢【今日正版新图速递 ({today_str})】\\n"
-            f"{map_lines}\\n"
-            f"按 ESC -> 选项投票 即可发起体验！\\n"
-            f"=============================="
-        )
-        send_to_server_fifo(f'sv_motd "{motd_text}"')
-        print(f"[{today_str}] 已同步进服弹窗 (今日新增 {len(unique_today)} 张新图)")
-    else:
-        # 今天没有新图（或日期已切换到新的一天），自动清空弹窗不打扰
-        send_to_server_fifo('sv_motd ""')
-
-    last_checked_date = today_str
-
 def append_map_and_refresh_votes(cat, mname):
     os.makedirs(VOTES_DIR, exist_ok=True)
     target_cfg = os.path.join(VOTES_DIR, f"{cat.lower()}.cfg")
-    current_date = time.strftime("%Y-%m-%d")
-    vote_line = f'add_vote "{mname} | ★★★✰✰ | {current_date}" "change_map {mname}"\n'
+    vote_line = f'add_vote "{format_vote_title(mname)}" "change_map {mname}"\n'
 
     try:
         with open(target_cfg, "a", encoding="utf-8") as wf:
@@ -353,21 +420,14 @@ def append_map_and_refresh_votes(cat, mname):
     except Exception as e:
         print(f"写入 {target_cfg} 失败: {e}")
 
-    # 1. 刷新投票菜单数量
     refresh_all_votes_system()
-
-    # 2. 实时广播（通知正在玩的玩家）
-    send_to_server_fifo(f'say 📢 [KoG 新图] 已自动入库: {mname} ({cat})')
-    send_to_server_fifo(f'broadcast 🎯 新地图 [{mname}] 已上线，快去投票体验！')
-
-    # 3. 更新进服弹窗（通知稍后/今天进服的玩家）
-    sync_today_new_maps_motd()
 
 def run_sniper():
     print("=" * 70)
-    print("KoG Linux 挂机自动收割服务启动 (含今日新图进服自动弹窗)")
+    print("KoG Linux 挂机自动收割服务启动 (Ubuntu 20.04 守护版)")
     print(f"地图物理存放目录: {OUTPUT_MAPS_DIR}")
     print(f"投票配置存放目录: {VOTES_DIR}")
+    print(f"Git 自动发布: {'开启 -> ' + GIT_REPO_DIR if GIT_ENABLED else '未找到仓库，已停用'}")
     print("=" * 70)
 
     clean_existing_corrupted_maps()
@@ -375,23 +435,18 @@ def run_sniper():
     os.makedirs(VOTES_DIR, exist_ok=True)
 
     refresh_all_votes_system()
-    # 启动时先核对一次今天的进服弹窗状态
-    sync_today_new_maps_motd()
-
     existing_maps = get_existing_maps()
     print(f"本地目前有效纯正地图总数: {len(existing_maps)} 张")
-    print("已开启全天候监听...\n" + "=" * 70)
+    print("已开启全天候监听（屏蔽一切测试服与非正式地图）...\n" + "=" * 70)
 
     round_count = 1
     new_downloaded_count = 0
+    fail_state = load_fail_state()
+    cooling = sum(1 for st in fail_state.values() if st.get("count", 0) >= FAIL_MAX_ATTEMPTS)
+    print(f"下载失败冷却状态已加载: {len(fail_state)} 条记录（冷却中 {cooling} 张）")
 
     while True:
         try:
-            # 每天午夜日期切换时，自动复位昨天的提示
-            current_day = time.strftime("%Y-%m-%d")
-            if current_day != last_checked_date:
-                sync_today_new_maps_motd()
-
             req = urllib.request.Request(MASTER_URL, headers={"User-Agent": "DDNet", "Connection": "close"})
             with urllib.request.urlopen(req, context=ssl_ctx, timeout=6) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
@@ -410,6 +465,10 @@ def run_sniper():
                     continue
 
                 if curr_map.lower() not in existing_maps:
+                    # 下载失败冷却中 → 静默跳过（防 404 死循环刷日志），到期自动复查防漏图
+                    if fail_in_cooldown(curr_map, fail_state):
+                        continue
+
                     detected_cat = extract_category_from_server(server_name)
                     dest_path = os.path.join(OUTPUT_MAPS_DIR, f"{curr_map}.map")
 
@@ -426,15 +485,23 @@ def run_sniper():
                         print(f"    合法正式图落盘: maps/{curr_map}.map (大小: {len(map_bytes)/1024:.1f} KB, 源: {source_info})")
 
                         append_map_and_refresh_votes(detected_cat, curr_map)
-                        print(f"    已登记至 votes/{detected_cat.lower()}.cfg 并同步配置今日进服提示！")
+                        print(f"    已登记至 votes/{detected_cat.lower()}.cfg 并刷新全部分类数量！")
+
+                        fail_clear(curr_map, fail_state)
+                        git_publish_map_update(curr_map, detected_cat)
 
                         existing_maps.add(curr_map.lower())
                         new_downloaded_count += 1
                         print(f"   累计新抓取: {new_downloaded_count} 张 | 总库容量: {len(existing_maps)} 张")
                     else:
-                        print(f"   ❌ 该地图 CDN 暂未就绪或非合法二进制，下轮重试")
+                        fail_count = fail_record(curr_map, fail_state)
+                        if fail_count >= FAIL_MAX_ATTEMPTS:
+                            print(f"   ❌ 连续失败 {fail_count} 次，进入 {FAIL_COOLDOWN_HOURS} 小时冷却，到期自动复查防漏图")
+                        else:
+                            print(f"   ❌ 该地图 CDN 暂未就绪或非合法二进制 (失败 {fail_count}/{FAIL_MAX_ATTEMPTS})，下轮重试")
 
             now_time = time.strftime("%Y-%m-%d %H:%M:%S")
+            # Linux journalctl 友好输出，每 5 轮打印一次心跳
             if round_count % 5 == 0:
                 print(f"[{now_time}] 监听中... 活跃正式服: {len(formal_servers)} 个 | 本地图库: {len(existing_maps)} 张 | 新捕获: {new_downloaded_count} 张")
 
@@ -445,6 +512,8 @@ def run_sniper():
             print("\n收到退出指令，服务停止。")
             break
         except Exception as e:
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] [ROUND-ERROR] {type(e).__name__}: {e}", flush=True)
+            traceback.print_exc()
             time.sleep(5)
             continue
 
