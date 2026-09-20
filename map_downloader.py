@@ -202,24 +202,48 @@ def download_map_strictly(map_name, map_sha):
 
     return None, "None"
 
+RATINGS_FILE = os.path.join(BASE_DIR, "map_ratings.json")
+RATINGS_CACHE = None
+
+def _norm_map_name(n):
+    """归一化图名：小写 + 去掉 - 和 _（匹配 Bl0odDens5 / Bl0od-Dens5 / CkiS_4_CLow 等写法差异）"""
+    return str(n).lower().replace("-", "").replace("_", "")
+
+def load_ratings():
+    """加载评分库：exact 为小写原名，norm 为去分隔符归一化名；失败返回空 dict"""
+    global RATINGS_CACHE
+    if RATINGS_CACHE is not None:
+        return RATINGS_CACHE
+    try:
+        with open(RATINGS_FILE, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        RATINGS_CACHE = (
+            {str(k).lower(): v for k, v in raw.items()},
+            {_norm_map_name(k): v for k, v in raw.items()},
+        )
+    except Exception:
+        RATINGS_CACHE = ({}, {})
+    return RATINGS_CACHE
+
+def find_rating(map_name):
+    """按小写原名优先、去分隔符归一化兜底查找评分条目；找不到返回 None"""
+    exact, norm = load_ratings()
+    return exact.get(map_name.lower()) or norm.get(_norm_map_name(map_name))
+
 def get_map_rating(map_name):
-    """【评分草案 · 暂未启用 —— 不改变现有任何行为】
-
-    存量 votes 里每张图都有真实星级（如 ★★✰✰✰），但新图目前没有评分数据源。
-    后续接入时本函数应返回 (stars_str, score_int) 或 None，
-    format_vote_title() 会自动使用其结果，届时无需再改投票逻辑。
-
-    TODO(评分草案): 数据源待定，可选：
-      1) KoG 官方 / DDNet ratings 接口
-      2) 人工维护 ratings.json（启动时加载，键为地图名小写）
-    """
-    return None
+    """返回 (points, released) 或 None；points 即官网 "X points" 分数（2026-09-20 接入 kog.tw + legit.tw）"""
+    r = find_rating(map_name)
+    if not r:
+        return None
+    return (r.get("points"), r.get("released") or "")
 
 def format_vote_title(map_name):
-    """生成投票行标题；评分草案未启用时保持固定占位 ★★★✰✰"""
+    """投票行标题：有评分 → 图名 | N分（有发布日期再附 | 日期）；无评分 → 固定占位 ★★★✰✰ + 今天"""
     rating = get_map_rating(map_name)
-    stars = rating[0] if rating else "★★★✰✰"
-    return f"{map_name} | {stars} | {time.strftime('%Y-%m-%d')}"
+    if rating:
+        pts, rel = rating
+        return f"{map_name} | {int(pts)}分" + (f" | {rel}" if rel else "")
+    return f"{map_name} | ★★★✰✰ | {time.strftime('%Y-%m-%d')}"
 
 def load_fail_state():
     """读取下载失败状态（JSON 持久化，服务重启不丢计数）"""
@@ -283,13 +307,31 @@ def git_publish_map_update(map_name, category):
             if fn.endswith(".cfg"):
                 shutil.copy2(os.path.join(VOTES_DIR, fn), os.path.join(repo_votes, fn))
         shutil.copy2(ROOT_VOTES_CFG, os.path.join(GIT_REPO_DIR, "votes.cfg"))
+        # 2b) 评分库同步进仓库（版本化管理，便于桌面挂机脚本同源读取）
+        if os.path.exists(RATINGS_FILE):
+            shutil.copy2(RATINGS_FILE, os.path.join(GIT_REPO_DIR, "map_ratings.json"))
 
-        # 3) 提交并推送（仅限定 maps/votes 路径，避免带入仓库内无关文件）
+        # 2c) 两台镜像 votes 同步（hybrid/tc 各自 WorkingDirectory 里的 votes/
+        #     是 ddnet 的同盘副本，新图登记后必须一起刷新，否则两台菜单落后）
+        #     （2026-09-20 起 gores 已下线，不再同步）
+        for svc in ("hybrid", "tc"):
+            try:
+                svc_votes_dir = f"/opt/{svc}/votes"
+                os.makedirs(svc_votes_dir, exist_ok=True)
+                for fn in os.listdir(VOTES_DIR):
+                    if fn.endswith(".cfg"):
+                        shutil.copy2(os.path.join(VOTES_DIR, fn),
+                                     os.path.join(svc_votes_dir, fn))
+                shutil.copy2(ROOT_VOTES_CFG, f"/opt/{svc}/votes.cfg")
+            except Exception as e:
+                print(f"    [sync] 同步投票到 {svc} 失败: {type(e).__name__}: {e}")
+
+        # 3) 提交并推送（仅限定 maps/votes/votes.cfg/map_ratings.json 路径）
         env = dict(os.environ, GIT_TERMINAL_PROMPT="0")
         msg = f"auto: add map [{category}] {map_name} ({time.strftime('%Y-%m-%d %H:%M')})"
 
         subprocess.run(["git", "-C", GIT_REPO_DIR, "add", "-A", "--",
-                        "maps", "votes", "votes.cfg"],
+                        "maps", "votes", "votes.cfg", "map_ratings.json"],
                        capture_output=True, timeout=60, env=env)
 
         commit = subprocess.run(
@@ -316,6 +358,16 @@ def git_publish_map_update(map_name, category):
     except Exception as e:
         print(f"    [git] 发布异常: {type(e).__name__}: {e}")
         return False
+
+def _vote_sort_key(line):
+    """投票列表排序：有日期的按日期倒序（新的在上，同日期按图名）；
+    无日期的 Official 组沉底（组内按图名）。"""
+    target = line.split("change_map ")[-1].replace('"', '').strip().lower()
+    m = re.search(r"\|\s*(\d{4})-(\d{1,2})-(\d{1,2})", line)
+    if m:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        return (0, -y, -mo, -d, target)
+    return (1, target)
 
 def refresh_all_votes_system():
     """扫描并更新 votes 目录下各分类的导航栏数量统计"""
@@ -344,6 +396,10 @@ def refresh_all_votes_system():
                     for line in f:
                         l = line.strip()
                         if l.startswith("add_vote") and "change_map " in l:
+                            # 有评分的存量行（含归一化别名）刷新时自动重写标题（图名 | N分 | 发布日期）
+                            m_name = l.split("change_map ")[-1].replace('"', '').strip()
+                            if find_rating(m_name):
+                                l = f'add_vote "{format_vote_title(m_name)}" "change_map {m_name}"'
                             category_maps[cat_name].append(l)
             except Exception:
                 pass
@@ -358,7 +414,7 @@ def refresh_all_votes_system():
                 seen.add(m_target)
                 unique_maps.append(m)
 
-        unique_maps.sort(key=lambda x: x.split("change_map ")[-1].replace('"', '').lower())
+        unique_maps.sort(key=_vote_sort_key)
         category_maps[cat] = unique_maps
         real_counts[cat] = len(unique_maps)
 
