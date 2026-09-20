@@ -7635,5 +7635,61 @@
   "category": "Hard",
   "mapper": "Zonsa",
   "released": "2023-05-16"
+ },
+ "Corgores": {
+  "points": 15,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "ImCorneum",
+  "released": ""
+ },
+ "Bl0odDens8": {
+  "points": 5,
+  "stars": 3,
+  "category": "Main",
+  "mapper": "Bl0odDens",
+  "released": ""
+ },
+ "Kero-Gores2": {
+  "points": 4,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "Kero",
+  "released": ""
+ },
+ "RaiNy4Nealson": {
+  "points": 5,
+  "stars": 1,
+  "category": "Main",
+  "mapper": "RaiNy",
+  "released": "2017-10-03"
+ },
+ "TheDarkJungle": {
+  "points": 10,
+  "stars": 2,
+  "category": "Main",
+  "mapper": "Warlord",
+  "released": "2018-05-08"
+ },
+ "Simpler": {
+  "points": 3,
+  "stars": 3,
+  "category": "Easy",
+  "mapper": "",
+  "released": ""
+ },
+ "SunnySideGores": {
+  "points": 2,
+  "stars": 2,
+  "category": "Easy",
+  "mapper": "",
+  "released": ""
+ },
+ "Prl4andreew": {
+  "points": 6,
+  "stars": 1,
+  "category": "Hard",
+  "mapper": "",
+  "released": ""
  }
 }
