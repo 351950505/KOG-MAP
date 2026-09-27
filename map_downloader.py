@@ -56,6 +56,7 @@ CATEGORY_DISPLAY_NAMES = {
     "Insane": "Iɴsᴀɴᴇ",
     "Extreme": "Exᴛʀᴇᴍᴇ",
     "Mods": "Mᴏᴅs",
+    "Test": "TEST",
     "Unknown": "Uɴᴋɴᴏᴡɴ"
 }
 
@@ -302,6 +303,17 @@ def git_publish_map_update(map_name, category):
         shutil.copy2(os.path.join(OUTPUT_MAPS_DIR, f"{map_name}.map"),
                      os.path.join(repo_maps, f"{map_name}.map"))
 
+        # 1b) new map -> each server's own maps/ dir (the four /opt/<svc>/maps
+        #     are standalone dirs, not shared), so change_map works on all four too
+        for svc in ("hybrid", "hybrid2", "tc", "hybrid5"):
+            try:
+                svc_maps_dir = f"/opt/{svc}/maps"
+                os.makedirs(svc_maps_dir, exist_ok=True)
+                shutil.copy2(os.path.join(OUTPUT_MAPS_DIR, f"{map_name}.map"),
+                             os.path.join(svc_maps_dir, f"{map_name}.map"))
+            except Exception as e:
+                print(f"    [sync] sync map to {svc} failed: {type(e).__name__}: {e}")
+
         # 2) 分类投票文件 + 根 votes.cfg（refresh 已全量重写，整目录覆盖即可）
         for fn in os.listdir(VOTES_DIR):
             if fn.endswith(".cfg"):
@@ -311,10 +323,10 @@ def git_publish_map_update(map_name, category):
         if os.path.exists(RATINGS_FILE):
             shutil.copy2(RATINGS_FILE, os.path.join(GIT_REPO_DIR, "map_ratings.json"))
 
-        # 2c) 两台镜像 votes 同步（hybrid/tc 各自 WorkingDirectory 里的 votes/
-        #     是 ddnet 的同盘副本，新图登记后必须一起刷新，否则两台菜单落后）
-        #     （2026-09-20 起 gores 已下线，不再同步）
-        for svc in ("hybrid", "tc"):
+        # 2c) 镜像 votes 同步（四台各有独立 votes/ 目录，新图登记后必须
+        #     一起刷新，否则菜单落后）
+        # NOTE: hybrid unfrozen 2026-09-21, now synced again (see AI summary #10)
+        for svc in ("hybrid", "hybrid2", "tc", "hybrid5"):
             try:
                 svc_votes_dir = f"/opt/{svc}/votes"
                 os.makedirs(svc_votes_dir, exist_ok=True)
@@ -387,7 +399,7 @@ def refresh_all_votes_system():
                 "Easy" if "Easy" in raw_cat else
                 "Solo" if "Solo" in raw_cat else
                 "Main" if "Main" in raw_cat else
-                "Mods" if "Mod" in raw_cat else "Unknown"
+                "Mods" if "Mod" in raw_cat else "Test" if "Test" in raw_cat else "Unknown"
             )
 
             cfg_path = os.path.join(VOTES_DIR, fname)
@@ -395,7 +407,7 @@ def refresh_all_votes_system():
                 with open(cfg_path, "r", encoding="utf-8", errors="ignore") as f:
                     for line in f:
                         l = line.strip()
-                        if l.startswith("add_vote") and "change_map " in l:
+                        if l.startswith("add_vote") and "change_map " in l and "随机一张" not in l:
                             # 有评分的存量行（含归一化别名）刷新时自动重写标题（图名 | N分 | 发布日期）
                             m_name = l.split("change_map ")[-1].replace('"', '').strip()
                             if find_rating(m_name):
@@ -418,7 +430,7 @@ def refresh_all_votes_system():
         category_maps[cat] = unique_maps
         real_counts[cat] = len(unique_maps)
 
-    priority_order = ["Main", "Easy", "Hard", "Solo", "Insane", "Extreme", "Mods", "Unknown"]
+    priority_order = ["Main", "Easy", "Hard", "Solo", "Insane", "Extreme", "Mods", "Test", "Unknown"]
     active_categories = [c for c in priority_order if c in real_counts]
     for c in real_counts:
         if c not in active_categories:
@@ -446,7 +458,11 @@ def refresh_all_votes_system():
 
                 # 分隔行必须用 20 个减号：纯空格标题的 add_vote 会被服务器拒绝（见交接文档坑 #8）
                 f.write('add_vote "--------------------" "info"\n')
-                f.write(f'add_vote "🎲 随机一张 {current_cat} 地图" "random_map"\n')
+                # random_map 只认 0..5 的 stars。用分类码编码：record_maps.Stars 存码而非官方难度星
+                # （1=Easy 2=Hard 3=Insane 4=Extreme 5=Main 0=Mods/Unknown/Test）；单参在两二进制同义
+                # （官方 BETWEEN c AND c，Gores Stars=c），保证四台 votes 可保持同 md5。
+                random_code = {"Main": 5, "Easy": 1, "Hard": 2, "Insane": 3, "Extreme": 4, "Solo": 0, "Mods": 0, "Test": 0, "Unknown": 0}.get(current_cat, 0)
+                f.write(f'add_vote "🎲 随机一张 {current_cat} 地图" "random_map {random_code}"\n')
                 f.write('add_vote "--------------------" "info"\n\n')
 
                 f.write(f"# -------------- 【{current_cat} 地图列表】 --------------\n")
